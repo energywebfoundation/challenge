@@ -1,7 +1,7 @@
 # Energy Web Innovation Challenge Proposal
 * **Project Name**: Example Project Name
 * **Project Proposer GitHub**: https://github.com/Example
-* **Energy Web Chain Payment Address**: 0x00000000000052d61cc9ce7c69a9D4c3c8152Ad1
+* **Energy Web Chain Payment Address**: 0xe61D7Ea53Dc18595367F881ceA1f74C8A13C7675
 
 ## Project Description
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dictum, sapien ac feugiat vestibulum, justo nisi semper tellus, at auctor lorem mauris vitae lorem. Sed dapibus viverra ex, ac hendrerit nibh pellentesque eget. Integer cursus fringilla nulla non finibus. Maecenas convallis malesuada dolor a volutpat. Sed semper ultrices augue sed venenatis. Etiam eget ipsum quis arcu facilisis laoreet at eu libero. Fusce pretium felis quis mauris pulvinar, ac semper felis posuere. Duis vel libero volutpat, blandit magna a, sollicitudin neque.
