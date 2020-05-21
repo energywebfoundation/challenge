@@ -12,8 +12,7 @@
 1. Submissions are open source
 2. Steps to apply
 ### Resources
-1. Additional Information
-2. How to reach us
+### How to reach us
 ### License
 
 # About EW Innovation Challenge
@@ -82,24 +81,29 @@ Having a transparent and open source application process means that others will 
     2. The winners will be announced by June 26, 2020
     
 # Resources
-## General 
+### General 
 * https://www.energyweb.org/
 * https://medium.com/energy-web-insights
-## EW Chain
+### EW Chain
 * https://www.energyweb.org/technology/energy-web-chain/
 * http://energyweb.org/energywebchain-whitepaper
 * [Connecting to the Volta Testnet RPC and MetaMask](https://energyweb.atlassian.net/wiki/spaces/EWF/pages/703201459/Volta+Connecting+to+Remote+RPC+and+Metamask)
-## EW-DOS
+### EW-DOS
 * https://www.energyweb.org/technology/ew-dos/
 * https://energyweb.org/EWDOS-whitepaper
-## Flex
+### Flex
 * https://www.energyweb.org/technology/toolkits/ew-flex/
 * [Energy Web Flex: An Overview
 ](https://www.youtube.com/watch?v=qoS9H4usJjI)
-## Decentralized Digital Identities (DIDs)
+### Decentralized Digital Identities (DIDs)
 * https://medium.com/energy-web-insights/ewfs-did-library-is-open-source-1f355c95503e
 * https://github.com/energywebfoundation/ew-did-registry
 * https://medium.com/energy-web-insights/digitalization-means-decarbonization-4e4b1af21d63
-## Origin
+### Origin
 * https://www.energyweb.org/technology/toolkits/ew-origin/
 * https://medium.com/energy-web-insights/origin/home
+
+# How to reach us
+Email any questions or comments to challenge@energyweb.org
+
+# License
