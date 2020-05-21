@@ -9,11 +9,8 @@
 3. What are we looking for?
 4. Innovation Challenge Evaluation
 ### Application Process
-1. Open source submissions
-2. Application Creation
-3. Application Submission
-4. HubSpot Form Submission
-5. Review
+1. Submissions are open source
+2. Steps to apply
 ### Resources
 1. Additional Information
 2. How to reach us
