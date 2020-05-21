@@ -69,16 +69,16 @@ Having a transparent and open source application process means that others will 
 1. Create Your GitHub Application
     1. Fork this repository
     2. In the newly created fork, create a copy of the application-template.md. In other words: In the GitHub web interface, you need to create a new file and copy the content of the application-template.md inside the new file. Don't change the template file directly!
-    3. Label the file as "project_name.md".
+    3. Label the file "your_project_name.md".
     4. Fill out the template with the details of your project.
 2. Submit your GitHub Application
     1. Once you have completed the application, click on "create new pull request".
-    2. Sign off on the terms and conditions presented by claassistantio as Contributor License Agreement (CLA). You might need to reload the pull request to see the comment by claassistantio.
-    3. Committee can issue comments and request changes on the pull request.
-    4. The application is submitted when the committee approves the pull request, the terms and conditions have been agreed, and all requested changes are addressed.
+    2. Sign off on the [terms and conditions](https://github.com/energywebfoundation/challenge/blob/master/src/Terms_%26_Conditions.md) presented by claassistantio as a Contributor License Agreement (CLA). You might need to reload the pull request to see the comment by claassistantio.
+    3. The Evaluation committee can issue comments and request changes on the pull request.
+    4. The GitHub application is submitted when the committee approves the pull request, the terms and conditions have been agreed to, and all requested changes are all addressed.
 3. Fill out and submit this [Ancillary Form](https://share.hsforms.com/1275EVu9YSPW8SY2D0KOw8w37vj2)
 4. Your submission is complete!
-    1. Just make sure to complete prior steps by the submission deadline: June 19, 2020
+    1. Just make sure to complete all prior steps by the submission deadline: **June 19, 2020**
 5. Review
     1. The Energy Web team will review proposals and award up to three winning proposals with grants in Energy Web Tokens (EWT) with a maximum value of 5,000 EWT per grant.
     2. The winners will be announced by June 26, 2020
