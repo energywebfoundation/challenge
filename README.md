@@ -104,3 +104,6 @@ Having a transparent and open source application process means that others will 
 
 # How to reach us
 Email any questions or comments to challenge@energyweb.org
+
+
+*This Github-based application process was inspired by Web3 Foundation's grants program.*
