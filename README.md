@@ -63,6 +63,7 @@ To be eligible to compete in the Innovation Challenge, all applications must be 
 
 Having a transparent and open source application process means that others will be able to read and may even use your ideas as inspiration for their own work or submissions. When evaluating submissions, if we find that two are very similar we will take into consideration which was submitted first.
 
+## Steps to apply
 1. Create Your GitHub Application
     1. Fork this repository
     2. In the newly created fork, create a copy of the application-template.md. In other words: In the GitHub web interface, you need to create a new file and copy the content of the application-template.md inside the new file. Don't change the template file directly!
