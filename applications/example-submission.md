@@ -27,3 +27,4 @@ Lorem ipsum dolor fusce vitae maximus nibh. Nam vitae suscipit nunc. Nam sed feu
 * Estimated Duration: 4 weeks
 
 # Additional Information
+Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus pharetra a sapien eget porttitor. Suspendisse potenti. Nam malesuada est urna, et ullamcorper dolor accumsan sit amet. Sed dapibus risus vel turpis aliquet gravida.
