@@ -58,7 +58,7 @@ The applications will be examined holistically; however special attention of the
 * Team credentials and ability of the team to deliver;
 
 # Application Process
-## Open source submissions
+## Submissions are open source
 To be eligible to compete in the Innovation Challenge, all applications must be submitted publicly to this Innovation Challenge Repository.
 
 Having a transparent and open source application process means that others will be able to read and may even use your ideas as inspiration for their own work or submissions. When evaluating submissions, if we find that two are very similar we will take into consideration which was submitted first.
