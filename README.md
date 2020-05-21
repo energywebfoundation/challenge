@@ -12,8 +12,7 @@
 1. [Submissions are open source](https://github.com/energywebfoundation/challenge/blob/master/README.md#submissions-are-open-source)
 2. [Steps to apply](https://github.com/energywebfoundation/challenge/blob/master/README.md#steps-to-apply)
 ### [Resources](https://github.com/energywebfoundation/challenge/blob/master/README.md#resources-1)
-### How to reach us
-### License
+### [How to reach us](https://github.com/energywebfoundation/challenge/blob/master/README.md#how-to-reach-us-1)
 
 # About EW Innovation Challenge
 ## Introduction
@@ -105,5 +104,3 @@ Having a transparent and open source application process means that others will 
 
 # How to reach us
 Email any questions or comments to challenge@energyweb.org
-
-# License
