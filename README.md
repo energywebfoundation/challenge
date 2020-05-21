@@ -34,28 +34,74 @@ We encourage students, entrepreneurs, application developers, startups, corporat
 
 The call for ideas is very open-ended. Our team is interested in reviewing any and all proposals to support Energy Web’s nonprofit mission. 
 
-Your application needs to answer the questions in the template doc, present your idea concisely (the total document excluding figures should be less than 5 pages in length), and outline a realistic plan of action to bring your idea to life. (Note: you do not need to actually build your idea to take part in the Innovation Challenge).
+Your application needs to answer the questions in the [template doc](https://github.com/energywebfoundation/challenge/blob/master/applications/example-submission.md), present your idea concisely (the total document excluding figures should be less than 5 pages in length), and outline a realistic plan of action to bring your idea to life. (Note: you do not need to actually build your idea to take part in the Innovation Challenge).
 
 We have also identified several concepts and ideas that we believe would be of great value to the Energy Web ecosystem. We encourage interested parties to consider submitting ideas in these areas as well as their own concepts:
 
 ### Tech stack enhancements:
-Decentralized digital identity (DID) library integration with additional DID methods
-
-DID resolver for Sovrin and/or Kilt
-
-Energy Web Chain analytics, monitoring, and visualizations (e.g., dashboards)
-
-Transaction relay server (example projects which can be used as inspiration: such as Gnosis transaction relay and Rockside)
-
-Audits for EW technologies (e.g. the DID Library or Origin)
+* Decentralized digital identity (DID) library [integration with additional DID methods](https://github.com/energywebfoundation/ew-did-registry/tree/development/packages/did-resolver-interface)
+* DID resolver for [Sovrin](https://sovrin.org/) and/or [Kilt](https://kilt.io/)
+* Energy Web Chain analytics, monitoring, and visualizations (e.g., dashboards)
+* Transaction relay server (example projects which can be used as inspiration: such as [Gnosis transaction relay](https://gnosis-safe.readthedocs.io/en/v1.0.0/services/relay.html) and [Rockside](https://docs.rockside.io/))
+* Audits for EW technologies (e.g. the DID Library or Origin)
 
 ### Applications & use cases:
-EW Origin integrations with legacy energy attribute certificate registries
-EW Flex integrations with legacy IT systems
-Enable retail supplier switching with DID
-dApps to improve grid resiliency based on EW-DOS
+* EW Origin integrations with legacy energy attribute certificate registries
+* EW Flex integrations with legacy IT systems
+* Enable retail supplier switching with DID
+* dApps to improve grid resiliency based on EW-DOS
 
 ## Innovation Challenge Evaluation
+The Evaluation Committee will consist of 2 members of the Energy Web team and 1 member from the Energy Web community. Depending on application submissions, we may expand the Evaluation Committee to meet additional needs
+
+The applications will be examined holistically; however special attention of the Evaluation Committee will be focused toward a predefined set of evaluation criteria:
+* Usefulness and uniqueness of the innovative solution;
+* Compatibility with EW Chain;
+* Commercialization potential;
+* Team credentials and ability of the team to deliver;
 
 # Application Process
+## Open source submissions
+To be eligible to compete in the Innovation Challenge, all applications must be submitted publicly to this Innovation Challenge Repository.
 
+Having a transparent and open source application process means that others will be able to read and may even use your ideas as inspiration for their own work or submissions. When evaluating submissions, if we find that two are very similar we will take into consideration which was submitted first.
+
+1. Create Your GitHub Application
+    1. Fork this repository
+    2. In the newly created fork, create a copy of the application-template.md. In other words: In the GitHub web interface, you need to create a new file and copy the content of the application-template.md inside the new file. Don't change the template file directly!
+    3. Label the file as "project_name.md".
+    4. Fill out the template with the details of your project.
+2. Submit your GitHub Application
+    1. Once you have completed the application, click on "create new pull request".
+    2. Sign off on the terms and conditions presented by claassistantio as Contributor License Agreement (CLA). You might need to reload the pull request to see the comment by claassistantio.
+    3. Committee can issue comments and request changes on the pull request.
+    4. The application is submitted when the committee approves the pull request, the terms and conditions have been agreed, and all requested changes are addressed.
+3. Fill out and submit this [Ancillary Form](https://share.hsforms.com/1275EVu9YSPW8SY2D0KOw8w37vj2)
+4. Your submission is complete!
+    1. Just make sure to complete prior steps by the submission deadline: June 19, 2020
+5. Review
+    1. The Energy Web team will review proposals and award up to three winning proposals with grants in Energy Web Tokens (EWT) with a maximum value of 5,000 EWT per grant.
+    2. The winners will be announced by June 26, 2020
+    
+# Resources
+## General 
+* https://www.energyweb.org/
+* https://medium.com/energy-web-insights
+## EW Chain
+* https://www.energyweb.org/technology/energy-web-chain/
+* http://energyweb.org/energywebchain-whitepaper
+* [Connecting to the Volta Testnet RPC and MetaMask](https://energyweb.atlassian.net/wiki/spaces/EWF/pages/703201459/Volta+Connecting+to+Remote+RPC+and+Metamask)
+## EW-DOS
+* https://www.energyweb.org/technology/ew-dos/
+* https://energyweb.org/EWDOS-whitepaper
+## Flex
+* https://www.energyweb.org/technology/toolkits/ew-flex/
+* [Energy Web Flex: An Overview
+](https://www.youtube.com/watch?v=qoS9H4usJjI)
+## Decentralized Digital Identities (DIDs)
+* https://medium.com/energy-web-insights/ewfs-did-library-is-open-source-1f355c95503e
+* https://github.com/energywebfoundation/ew-did-registry
+* https://medium.com/energy-web-insights/digitalization-means-decarbonization-4e4b1af21d63
+## Origin
+* https://www.energyweb.org/technology/toolkits/ew-origin/
+* https://medium.com/energy-web-insights/origin/home
