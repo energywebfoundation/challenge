@@ -1,6 +1,6 @@
 # Energy Web Innovation Challenge
 
-<img src="https://github.com/energywebfoundation/challenge/blob/master/src/InnovationChallenge-Dark.png" width="800"/>
+<img src="https://github.com/energywebfoundation/challenge/blob/master/src/InnovationChallenge-Dark.png?raw=true" style="width:50%; min-width:250px;">
 
 # Table of contents
 ### [About EW Innovation Challenge](https://github.com/energywebfoundation/challenge#about-ew-innovation-challenge-1)
