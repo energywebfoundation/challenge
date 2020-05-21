@@ -65,7 +65,7 @@ Having a transparent and open source application process means that others will 
 1. Create Your GitHub Application
     1. Fork this repository
     2. In the newly created fork, create a copy of the application-template.md. In other words: In the GitHub web interface, you need to create a new file and copy the content of the application-template.md inside the new file. Don't change the template file directly!
-    3. Label the file "your_project_name.md".
+    3. Rename the file "your_project_name.md".
     4. Fill out the template with the details of your project.
 2. Submit your GitHub Application
     1. Once you have completed the application, click on "create new pull request".
