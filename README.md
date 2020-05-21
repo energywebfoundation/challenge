@@ -3,15 +3,15 @@
 ![Innovation Challenge Banner](src/banner.jpeg)
 
 # Table of contents
-### About EW Innovation Challenge
-1. Introduction
-2. Who should apply?
-3. What are we looking for?
-4. Innovation Challenge Evaluation
-### Application Process
-1. Submissions are open source
-2. Steps to apply
-### Resources
+### [About EW Innovation Challenge](https://github.com/energywebfoundation/challenge#about-ew-innovation-challenge-1)
+1. [Introduction](https://github.com/energywebfoundation/challenge#introduction)
+2. [Who should apply?](https://github.com/energywebfoundation/challenge#who-should-apply)
+3. [What are we looking for?](https://github.com/energywebfoundation/challenge#what-are-we-looking-for)
+4. [Innovation Challenge Evaluation](https://github.com/energywebfoundation/challenge#innovation-challenge-evaluation)
+### [Application Process](https://github.com/energywebfoundation/challenge#application-process-1)
+1. [Submissions are open source](https://github.com/energywebfoundation/challenge/blob/master/README.md#submissions-are-open-source)
+2. [Steps to apply](https://github.com/energywebfoundation/challenge/blob/master/README.md#steps-to-apply)
+### [Resources](https://github.com/energywebfoundation/challenge/blob/master/README.md#resources-1)
 ### How to reach us
 ### License
 
