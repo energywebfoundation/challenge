@@ -1,7 +1,7 @@
 # Energy Web Innovation Challenge Proposal
 * **Project Name**: MicroGrid
 * **Project Proposer GitHub**: https://github.com/saahilshangle
-* **Energy Web Chain Payment Address**: [WIP]
+* **Energy Web Chain Payment Address**: 0x6b73E4Bae3839f929138604967BF46d3295c8189
 
 ## Project Description
 MicroGrid is a peer to peer energy management platform that implements dynamic energy pricing. In this system, government regulated energy monopolies and individual energy producers sell on the same market through the existing power grid. We deliver market competitive prices to retail consumers and prosumers by leveraging the existing non-competitive surplus renewable energy market currently controlled by monopolistic energy companies.
