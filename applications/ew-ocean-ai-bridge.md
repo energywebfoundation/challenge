@@ -44,7 +44,7 @@ By exposing energy and power consumption data sets to the OCEAN marketplaces, we
 
 Proposed Architecture & Deliverables:
 
-    1. Thin client REST API (either Typescript/Node.js or Golang, JSON): Ultimately, we'd have to optimize this for millions of TPS, probably using traditional cloud based architecture deployment. This would enable EW-AI to be integrated easily into many different EW-DOS clients,
+    1. Thin client REST API (either Typescript/Node.js or Golang, JSON, Swagger Docs): Ultimately, we'd have to optimize this for millions of TPS, probably using traditional cloud based architecture deployment. This would enable EW-AI to be integrated easily into many different EW-DOS clients,
 
     2. Back Eend Data Model/DB (Either SQL or NoSQL, Both?, Mongo?, other?): This protoype would hand-code scheme, no UI for the DB is called for (would be possible later of course)
 
@@ -58,6 +58,14 @@ Prototype would demonstrate how data could be handled from multiple devices (e.g
     - multiple networks (pools?)
     - multiple device types
     - one or more OCEAN algo's applied (very simple ones probably!)
+
+I envision a hierarchy of devices:
+
+((DIAGRAM HERE))
+
+A "pool" is a group of the same devices from a single vendor (mfg)...e.g. Pool P = Sum( all Vendor X Device Type Y devices). There may be multiple pools per vendor. How Pools and Networks correlate I'm not quite sure yet (maybe Pool = Network, but I envision there could be multiple Pools on each network).
+
+API handles multiple device and notification types (event, report) with JSON data payload (which could differ by event type, and device type and even by Vendor)
     
 ## Team
 * **Members**: Robert Anderson (Adivate.net, a division of Discovery Productions, Inc.)
@@ -66,6 +74,8 @@ Prototype would demonstrate how data could be handled from multiple devices (e.g
 * **Team's Experience**:
 
 25+ Years dev & entrepeneur, primarily asp.net, SQL based systems. Education: B.S. Physics
+
+My speciality is really data abstraction, modeling and API development. I'm not an expert in cryptos, IOT, EW, or AI/OCEAN. I'm more of a jack of all trades system integration type of dev. Full stack is fine.
 
 Most recent: Founded, developed, managed and sold an E-Commerce business. Developed shopping cart platform based on asp.net/SQL. Our customers were dotnet developers and corporations (we developed a platform they would customize). Grew to 10,000 customers and $5M sales, mostly small-mid size businesses, but we also had bigger clients (Crocs, McDonalds, PGA Tour, Ed Hardy, ZGallerie, etc...). Had 70 employees (20 US, 50 Philippines) and 40 developers working for me at the time I sold the business in 2012. I then took a few years off to decompress and did photography (https://rjohnanderson.photography). I'm looking for my next project/startup now and blockchain solutions have my interest. Longer term: I have 30-years of experience in development, databases, E-commerce, embedded systems, real time command & control systems, communications systems. Full stack developer and manager so I can work on both front-end and back-end projects, although I prefer back-end projects which involve data management (REST API’s, etc.), analysis, retrieval, transformation and abstraction. Experienced with SQL and NoSQL and proficient in several languages and dev platforms. Have done: Development, Product Marketing, Sales, Investor Relations, CEO...so my business experience helps me to make common sense decisions when doing design and development. Typically work remote in rapid prototyping and other agile development environments.
 
@@ -90,7 +100,7 @@ Most recent: Founded, developed, managed and sold an E-Commerce business. Develo
 
 # Additional Information/Notes:
 
-    - Project idea genesis came from seeing EW and Vodaphone partnership, which leads to IOT. I then thought there must be a way for all the EW-DOS enabled IOT device "power and energy data" to feed into OCEAN for AI consumption, learning and refinement of EW tech (feedback loop). This might also enable markeplaces, public and private in OCEAN for Energy Data for IOT.
+    - Project idea genesis came from seeing EW and Vodafone partnership, which leads to IOT. I then thought there must be a way for all the EW-DOS enabled IOT device "power and energy data" to feed into OCEAN for AI consumption, learning and refinement of EW tech (feedback loop). This might also enable marketplaces, public and private in OCEAN for Energy Data for IOT.
 
     - This project is not trading or buying/selling energy contracts (that's a whole different market than the focus of this project)
 
@@ -99,6 +109,17 @@ Most recent: Founded, developed, managed and sold an E-Commerce business. Develo
     - This project will only use simulated EW-DOS devices and simulated data (i.e. we will make simulated JSON payloads for PTD). This leads me to wonder if there is an EW-DOS device simulator (maybe that is a separate dev project to do) which allows devices to be simulated, power profiles simulated, generates EW-AI data streams, etc. Ultimately, we'd like to register JSON schema by device, so it could be extensible and cross-analyziable (even across different networks, devices and manufacturers)
 
     - I'd be interested in doing follow-on projects for both EW and OCEAN
+
+    - If I fork from other projects to make some of this, is there a specific licensse type that I'm limited to using?
+
+    - Are there any specific open source platforms, projects or repositories I cannot utilize in making this?
+
+    - This project is a CONCEPTUAL PROTOTYPE (demonstrating end-to-end EW-DOS -> OCEAN connenctivity). Not included: 
+        * How EW-AI is onboarded into EW-DO
+        * How vendors/manufacturers are onboarded into EW-AI
+        * How devices are fully authenticated/seured to connect to EW-AI (I will integrate with ENS though obviously), although I realize authentication will ultimately be required (maybe it can get in, not sure)s
+        * Performace tuning
+        * IT/Production/Operational deployments, etc.
 
 
 
