@@ -34,11 +34,11 @@ Traditionally, households consume electricity, and their cost is based on the lo
 
 
 ## Team
-* **Members**: Omkar Waingankar, Ratan Kaliani, Ruhi Pudipeddi, Kelvin Xu
+* **Members**: Saahil Shangle, Omkar Waingankar, Ratan Kaliani, Ruhi Pudipeddi, Kelvin Xu
 * **Code Repositories**: https://github.com/saahilshangle/microgrid-blockchain
 * **Website**: https://blockchain.berkeley.edu/
 * **Team's Experience**:
-We are a group of 5 UC Berkeley students from Blockchain @ Berkeley. My name is Saahil, I am a third year studying Data Science and Business Administration. I enjoy learning
+We are a group of 5 UC Berkeley students in Blockchain @ Berkeley. Saahil is a rising Junior studying Data Science & Business Administration, with internship experience at PayPal and Cisco. He is also Vice President for a student run pro bono consulting organization on campus. Omkar is a rising Senior studying EECS, former Amazon intern, former undergraduate data science researcher, and co-founder of Flipout, an angel-backed sports betting startup. He is currently an 8VC Fellow and software engineering intern at Nylas, a series B startup building unified communications APIs. Ruhi is also a rising senior, studying Computer Science & City Planning. She’s currently interning at Lyft in their autonomous vehicle/self-driving division and is interested in the intersections of software and urban design. Kelvin is also a rising senior, studying economics, logic, and data science. In his free time, he enjoys trading and studying secondary markets, and he is currently interning at Morgan Stanley. 
 
 ## Development Roadmap
 * Total Estimated Duration: 8 weeks
