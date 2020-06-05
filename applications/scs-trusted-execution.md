@@ -31,6 +31,43 @@ A similar reasoning applies to EW Origin. If you'd like to get real-time certifi
 
 Also in this case, EW-TEE could enhance privacy and scalability.
 
+## Technical Approach
+
+In order to minimize maintenance for both SubstraTEE-worker and EW-TEE-worker we should start with refactoring the code to have better abstraction from the underlying chain. Then we can replace substrate-specific interfaces with ethereum ones.
+
+### Key Differences between chains
+Differences *substrate* -> *ethereum*
+
+* Ethereum does not provide the necessary tools to verify Intel IAS RA reports on-chain. *this can be mitigated by having the client check the RA signatures*
+* crypto primitives
+  * substrate supports sr25519/ed25519/secp256k1 so we're fine
+  * blake2b/twoxx -> keccak256
+* account encoding
+  * ss58 -> hex (public -> keccak -> with checksum)
+* RPC client implementations in Rust
+  * [substrate-api-client](https://github.com/scs/substrate-api-client) -> [web3](https://github.com/tomusdrw/rust-web3)
+
+### Expected Difficulties
+* `no_std` support for ethereum-specific crates like rust-web3
+* crypto primitives support within enclave: check if everything is already supported either with `no_std` or in rust-sgx-sdk forks (i.e. https://github.com/mesalock-linux/ring-sgx or https://github.com/mesalock-linux/rust-crypto-sgx
+
+### Strategy
+
+### crypto primitives
+substrate already features abstraction of ecc curve as well as hashes. It should be straight-forward to support ethereum primitives within substrate crate-forks (patching paritytech/substrate crates). I'd even expect parity to accept a PR with additional primitives support
+
+See: https://github.com/paritytech/substrate/blob/0cfe7438b6cf2a2a3cb1f4ba98a83a17d3fe866c/core/primitives/src/crypto.rs#L570
+
+## tasks
+The following tasks are a preliminary plan, TBD.
+1. support ethereum crypto primitives with a fork of https://github.com/paritytech/substrate/blob/0cfe7438b6cf2a2a3cb1f4ba98a83a17d3fe866c/core/primitives/
+1. fork substraTEE-worker
+1. implement abstraction for substrate-api-client (i.e. `chain_api-client`), to be implemented either for substrate or ethereum. (introduce trait `chain_interface`?)
+1. implement abstraction for everything coming from paritytech/substrate (except substrate-primitives, which will support ethereum primitives)
+1. client code should verify RA reports
+
+
+
 ## Team
 * **Members**: 
   * Alain Brenzikofer, Department Head
