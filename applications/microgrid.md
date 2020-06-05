@@ -5,7 +5,7 @@
 
 ## Project Description
 ### Executive Summary
-MicroGrid is a P2P energy management platform that implements dynamic energy pricing. In this system, government regulated energy monopolies and individual energy producers sell on the same market through the existing power grid. We deliver market competitive prices to retail consumers and prosumers by leveraging the existing non-competitive surplus renewable energy market currently controlled by monopolistic energy companies.
+MicroGrid is a U.S. P2P energy sharing platform that creates a competitive energy market with dynamic pricing built on the EW-DOS infrastructure. In this system, government regulated energy monopolies (often grid operators) and individual energy producers sell on the same market through the existing power grid. We deliver market competitive prices to retail consumers and prosumers by leveraging the existing non-competitive surplus renewable energy market currently controlled by monopolistic energy companies. Self-soverign decentralized identifiers (SSI) will enable simple supplier switching as users build their identities with transaction histories and other personal tokens. MicroGrid can reduce the need for aggregated DER amounts in a marketplace (as seen with Community Choice Aggregation & California's DRAM program) by leveraging smart contract-based Distributed Energy Resource Management Systems (DERMS).
 
 ### Background
 Traditionally, households consume electricity, and their cost is based on the locational marginal pricing determined by centralized firms such as PG&E. These energy companies require large fixed costs to build the infrastructures. As a result, they often form natural monopolies with government subsidies. There are regulations regarding how these monopolies price energy, but their electricity buy and sell prices still have a huge spread (around 3¢/kWh vs 20¢/kWh). This effectively makes them a large middleman of the energy market, profiting from this spread. Using a blockchain provides a novel mechanism for individuals to have the additional option of trading energy in a peer-to-peer fashion. The prosumers can now post offers to sell their surplus energy while the consumers buy from them. With the P2P market force, both the supply and the demand side can trade energy at a better price. Our algorithm will automatically match the buyers and suppliers, allowing them to trade at ease. This solution generates the possibility of P2P energy trading, but when the market is illiquid or when the price is not ideal, people can still choose to buy/sell energy with centralized firms as they used to do.
@@ -45,8 +45,8 @@ We plan to perform exhaustive user testing in both Figma and our fully developed
 * **Website**: https://blockchain.berkeley.edu/
 * **Team's Experience**:
 We are a group of 5 UC Berkeley students and members of Blockchain @ Berkeley. 
-  * Saahil is a rising junior studying Data Science & Business Administration with internship experience at PayPal and Cisco. He is Vice President for a student run pro bono consulting organization and enjoys working projects that bridge social impact and technology. 
-  * Omkar is a rising senior studying EECS, former Amazon intern, former undergraduate data science researcher, and co-founder of Flipout, an angel-backed sports betting startup. He is currently an 8VC Fellow and software engineering intern at Nylas, a series B startup building unified communications APIs.
+  * Saahil is a rising junior studying Data Science & Business Administration with internship experience as a PayPal Strategy Analyst and Cisco PM. He is Vice President for a student run pro bono consulting organization and enjoys working on projects that bridge social impact and technology. Relevant skills include: U.S. energy regulation/initiative domain knowledge, smart contract design, competitive market analysis, commericialization strategy, and web development.
+  * Omkar is a rising senior studying EECS, former Amazon intern, former undergraduate data science researcher, and co-founder of Flipout, an angel-backed sports betting startup. He is currently an 8VC Fellow and software engineering intern at Nylas, a series B startup building unified communications APIs. 
   * Ratan is a rising sophomore EECS major who loves playing basketball, organizing legal games of poker and curating Spotify playlists. Currently, Ratan is a Software Engineer Intern at Virgil Quantitative Research (VQR). 
   * Ruhi is a rising senior, studying Computer Science & City Planning. She’s currently interning at Lyft in their autonomous vehicle/self-driving division and is interested in the intersections of software and urban design.
   * Kelvin is also a rising senior, studying economics, logic, and data science. In his free time, he enjoys trading and studying secondary markets, and he is currently interning at Morgan Stanley. 
@@ -54,11 +54,11 @@ We are a group of 5 UC Berkeley students and members of Blockchain @ Berkeley.
 ## Development Roadmap
 * Total Estimated Duration: 8 weeks
 
-### Milestone 1
+### Milestone 1: 
 * Estimated Duration: 4 weeks
 
 ### Milestone 2
 * Estimated Duration: 4 weeks
 
 # Additional Information
-Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus pharetra a sapien eget porttitor. Suspendisse potenti. Nam malesuada est urna, et ullamcorper dolor accumsan sit amet. Sed dapibus risus vel turpis aliquet gravida.
+We already developed a dApp with a P2P energy sharing PoC on an ethereum test net over the course of the past 4 months. In mid-May we had the opportunity to present our work to Sam Hartnett, EWF Research & Market Development Manager, who encouraged us to apply. Our team is enthusiastic about the sector and this project, and believe that the EW-DOS infrastructure would the ideal backbone for the platform. While EWF has made great progress globally already, we are particularly interested in penetrating the U.S. energy market and navigating the regulations and existing monopoly set up. 
