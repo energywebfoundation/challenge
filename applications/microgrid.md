@@ -4,14 +4,14 @@
 * **Energy Web Chain Payment Address**: 0x6b73E4Bae3839f929138604967BF46d3295c8189
 
 ## Project Description
-# Executive Summary
-$ MicroGrid is a P2P energy management platform that implements dynamic energy pricing. In this system, government regulated energy monopolies and individual energy producers sell on the same market through the existing power grid. We deliver market competitive prices to retail consumers and prosumers by leveraging the existing non-competitive surplus renewable energy market currently controlled by monopolistic energy companies. $
+### Executive Summary
+MicroGrid is a P2P energy management platform that implements dynamic energy pricing. In this system, government regulated energy monopolies and individual energy producers sell on the same market through the existing power grid. We deliver market competitive prices to retail consumers and prosumers by leveraging the existing non-competitive surplus renewable energy market currently controlled by monopolistic energy companies.
 
-# Background
+### Background
 
 
 
-$ This platform will assign individual energy producers and consumers to microgrid regions, or neighborhoods, where sellers and buyers are matched off-chain. We utilize blockchain to execute energy transactions and maintain a complete record of them. Ethereum smart contracts will handle the exchange of energy rights with neighborhood-unique stablecoin. However, the user experience will be largely abstracted away from the blockchain, and transactions are automated to minimize costs through a continuous process of dynamic energy pricing.
+This platform will assign individual energy producers and consumers to microgrid regions, or neighborhoods, where sellers and buyers are matched off-chain. We utilize blockchain to execute energy transactions and maintain a complete record of them. Ethereum smart contracts will handle the exchange of energy rights with neighborhood-unique stablecoin. However, the user experience will be largely abstracted away from the blockchain, and transactions are automated to minimize costs through a continuous process of dynamic energy pricing.
 
 A decentralized ledger provides transparent neighbor to neighbor energy management that significantly reduces reliance and costs associated with a single energy provider. Existing energy providers will be given royalties for operating on their infrastructure and still available as a seller option for consumers.
 
@@ -41,7 +41,12 @@ Traditionally, households consume electricity, and their cost is based on the lo
 * **Code Repositories**: https://github.com/saahilshangle/microgrid-blockchain
 * **Website**: https://blockchain.berkeley.edu/
 * **Team's Experience**:
-We are a group of 5 UC Berkeley students and members of Blockchain @ Berkeley. Saahil is a rising junior studying Data Science & Business Administration, with internship experience at PayPal and Cisco. He is Vice President for a student run pro bono consulting organization, and enjoys working projects that bridge social impact and technology. Omkar is a rising senior studying EECS, former Amazon intern, former undergraduate data science researcher, and co-founder of Flipout, an angel-backed sports betting startup. He is currently an 8VC Fellow and software engineering intern at Nylas, a series B startup building unified communications APIs. Ratan is a rising sophomore EECS major who loves playing basketball, organizing legal games of poker and curating Spotify playlists. Currently, Ratan is a Software Engineer Intern at Virgil Quantitative Research (VQR). Ruhi is a rising senior, studying Computer Science & City Planning. She’s currently interning at Lyft in their autonomous vehicle/self-driving division and is interested in the intersections of software and urban design. Kelvin is also a rising senior, studying economics, logic, and data science. In his free time, he enjoys trading and studying secondary markets, and he is currently interning at Morgan Stanley. 
+We are a group of 5 UC Berkeley students and members of Blockchain @ Berkeley. 
+* Saahil is a rising junior studying Data Science & Business Administration, with internship experience at PayPal and Cisco. He is Vice President for a student run pro bono consulting organization, and enjoys working projects that bridge social impact and technology. 
+* Omkar is a rising senior studying EECS, former Amazon intern, former undergraduate data science researcher, and co-founder of Flipout, an angel-backed sports betting startup. He is currently an 8VC Fellow and software engineering intern at Nylas, a series B startup building unified communications APIs.
+* Ratan is a rising sophomore EECS major who loves playing basketball, organizing legal games of poker and curating Spotify playlists. Currently, Ratan is a Software Engineer Intern at Virgil Quantitative Research (VQR). 
+* Ruhi is a rising senior, studying Computer Science & City Planning. She’s currently interning at Lyft in their autonomous vehicle/self-driving division and is interested in the intersections of software and urban design.
+* Kelvin is also a rising senior, studying economics, logic, and data science. In his free time, he enjoys trading and studying secondary markets, and he is currently interning at Morgan Stanley. 
 
 ## Development Roadmap
 * Total Estimated Duration: 8 weeks
