@@ -58,11 +58,11 @@ By exposing energy and power consumption data sets to the OCEAN marketplaces, we
 
 3. PROPOSED ARCHITETURE & DELIVERABLES:
 
-    1. Thin client REST API (either Typescript/Node.js or Golang, JSON, Swagger Docs): Ultimately, we'd have to optimize this for millions of TPS, probably using traditional cloud based architecture deployment. This would enable EW-AI to be integrated easily into many different EW-DOS clients,
+    1. EWAI API - Thin client REST API (either Typescript/Node.js or Golang, JSON, Swagger Docs): Ultimately, we'd have to optimize this for millions of TPS, probably using traditional cloud based architecture deployment. This would enable EW-AI to be integrated easily into many different EW-DOS clients,
 
-    2. Back Eend Data Model/DB (Either SQL or NoSQL, Both?, Mongo?, other?): This protoype would hand-code scheme, no UI for the DB is called for (would be possible later of course)
+    2. EWAI Data Mgr - Back Eend Data Model/DB (Either SQL or NoSQL, Both?, Mongo?, other?): This protoype would hand-code scheme, no UI for the DB is called for (would be possible later of course). This module would also be responsible for data aggregation, normalization, association, staging and meta-data prep to get it ready for OCEAN
 
-    3. Prototype UI (Electron React.js app): showing how it could all be used together, and tied to OCEAN
+    3. EWAI Data Mgr UI - (Electron React.js app): showing how it could all be used together, managed and tied to OCEAN (The UI at this time is the least defined area)
 
     ((UI DIAGRAM HERE TBD?))
 
@@ -111,6 +111,8 @@ Most recent: Founded, developed, managed and sold an E-Commerce business. Develo
     - This project is not trading or buying/selling energy contracts (that's a whole different market than the focus of this project)
 
     - I will almost certainly need some advice/input from 1) IOT person (Vodaphone maybe?), 2) EW Dev, 3) OCEAN dev. I'm a solid dev, but still fairly new to crypto and EW/OCEAN. I understand all the basics and concepts.
+
+    - Since I'm new to BOTH project (EW and OCEAN), I've tried to be a bit conservative in the schedule. Hoefully things will go faster, but we'll see as things progress.
 
     - Since this system crosses two completely separate projects (EW and OCEAN Projects), it might get a more complicated than can be predicted/envisioned right now at the start.
 
