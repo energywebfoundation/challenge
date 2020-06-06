@@ -7,16 +7,20 @@
 
 BUILD AN EW-TO-OCEAN BRIDGE ENABLING POWER ANALYTICS AND INTELLIGENCE (A.I. LEARNING) FOR EW-DOS ENABLED IOT DEVICES - ENERGY ANALYTICS & LEARNING
 
-Create an EW to OCEAN API Bridge (EW-AI) which enables the creation of OCEAN IOT Energy Data Marketplace(s) fed by billions of EW-DOS enabled devices. The EW-DOS devices send Power Telemetry Data (PDT) about usage and consumption to the marketplace(s). 
+1. OVERVIEW
+
+Create an EW to OCEAN API Bridge (EW-AI) which enables the creation of OCEAN IOT Energy Data Marketplace(s) fed by billions of EW-DOS enabled devices. The EW-DOS devices send Power Telemetry Data (PDT) about usage and consumption to the marketplace(s). OCEAN's data marketplaces would be an ideal way to apply AI learning to improve energy efficiency of IOT devices by studying patterns visible from their data.
 
 Premises and Overall Goal:
 
-    1. To improve the efficiency of IOT energy devices and networks, we need to learn from them by collecting and analyzing real-world consumptiom data analysis,
-    2. To learn, we need to see patterns,
-    3. To get patterns, we need to have data,
-    4. To get data, we need EW-DOS IOT devices to be able to report their power telemetry data (PTD),
+    1) To improve the efficiency of IOT energy devices and networks, we need to learn from them by collecting and analyzing real-world consumptiom data analysis,
+    2) To learn, we need to see patterns,
+    3) To get patterns, we need to have data,
+    4) To get data, we need EW-DOS IOT devices to send their Power Telemetry Data (PTD). Note that PTD (Power Telemetry Data) is a very open-ended term. It could encompass many different JSON data payloads/datasets with things from the device's power metrics, usage and consumption data, event related data, etc. 
 
-This project would develop an end-to-end prototype of how this could be accomplished, showing how EW-DOS enabled IOT devices would be able to do this. 
+((DIAGRAM HERE))
+
+This project would develop an end-to-end prototype of how this could be accomplished by creating an EW-DOS Energy IOT OCEAN Marketplace (app, api, etc.), showing how EW-DOS enabled IOT devices would be able to do this. 
 
     - Enables analytics and learning from energy data consumption and usage data.
     - Build a prototype system (Data Model, API, DB, UI) which enables the creation of EW-DOS Energy Data Marketplace(s) in OCEAN for EW-DOS IOT Devices 
@@ -34,15 +38,19 @@ EW-AI would funnel, prepare (normalize), and aggregate PTD for OCEAN marketplace
 
 In CVM, since we would be able to learn from devices and networks across companies, manufacturers and networks, we may discover patterns that were heretofore unknown (and unpredicatble). E.g. we might learn that when Vendor X device X limits power to P, then Vendor Y device Y actually increases it's power consumption by 1.1*P, actually offsetting (and more) energy consumption to produce net energy waste. An example of this might help (wildly fictional): When home thermostat devices in homes are set to allow max temp Y when the ambient temperature is >Z, then we learn that consumers actually drive their cars MORE to the beach to cool off than we saved by limiting the thermostats (net energy waste, not gain). Again, this is a wildly fictional example, but it just may start ideas about what might be possible. This shows how IOT energy device data from 3 different vendors is cross analyzed (home thermostat IOT, car (EV) IOT, user Phone IOT (location data)).
 
+2. FUTURE MONETIZATION:
+
 By exposing energy and power consumption data sets to the OCEAN marketplaces, we might enable the following monetization Areas:
 
     a) provide IOT power datasets for a fee (i.e. enable buy/sell of energy data)
 
-    b) provide EW-DOS-AI as a service to manufacturers of EW-DOS enabled devices and energy network providers
+    b) provide EW-AI as a service to manufacturers of EW-DOS enabled devices and energy network providers
 
     c) provide architecture and analytics as a service (Actual AI algos) to IOT manufacturers of EW-DOS enabled devices
 
-Proposed Architecture & Deliverables:
+    d) Offer EW-AI integration and analysis/consulting services to IOT vendors
+
+3. PROPOSED ARCHITETURE & DELIVERABLES:
 
     1. Thin client REST API (either Typescript/Node.js or Golang, JSON, Swagger Docs): Ultimately, we'd have to optimize this for millions of TPS, probably using traditional cloud based architecture deployment. This would enable EW-AI to be integrated easily into many different EW-DOS clients,
 
@@ -59,9 +67,9 @@ Prototype would demonstrate how data could be handled from multiple devices (e.g
     - multiple device types
     - one or more OCEAN algo's applied (very simple ones probably!)
 
-I envision a hierarchy of devices:
+I envision a hierarchy of devices (I've set this up using ENS, but that would be optional):
 
-((DIAGRAM HERE))
+![EW AI Device Hierarchy](https://adivate.net/doc/ewai/EWCOrgDiagram.jpeg)
 
 A "pool" is a group of the same devices from a single vendor (mfg)...e.g. Pool P = Sum( all Vendor X Device Type Y devices). There may be multiple pools per vendor. How Pools and Networks correlate I'm not quite sure yet (maybe Pool = Network, but I envision there could be multiple Pools on each network).
 
@@ -115,6 +123,7 @@ Most recent: Founded, developed, managed and sold an E-Commerce business. Develo
     - Are there any specific open source platforms, projects or repositories I cannot utilize in making this?
 
     - This project is a CONCEPTUAL PROTOTYPE (demonstrating end-to-end EW-DOS -> OCEAN connenctivity). Not included: 
+
         * How EW-AI is onboarded into EW-DO
         * How vendors/manufacturers are onboarded into EW-AI
         * How devices are fully authenticated/seured to connect to EW-AI (I will integrate with ENS though obviously), although I realize authentication will ultimately be required (maybe it can get in, not sure)s
