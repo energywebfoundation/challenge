@@ -34,7 +34,13 @@ This could enable two types of energy IOT data marketplaces, both private and pu
     
     > Public Cross-vendor/network/manufacturer Marketplace (CVM): IOT devices publish their data (anonymously) for the benefit of all to analyze and learn from. The Data from multiple vendors, networks and devices could be aggregated, normalized, and cross-analyzied for pattern development and learning. In this case, for example, data from Vendor X cars, Vendor Y smart meters, and Vendor Z phone IOT devices would be availabe for cross analysis. Benefits of learning and pattern recognition would be available to all who contributed the data.
 
-EW-AI would funnel, prepare (normalize), and aggregate PTD for OCEAN marketplace consumptiom (i.e. data funnel) and analytics/learning. Devices would identify via ENS and be anonymized as necessary (different requirements for CVM and SVM):
+EW-AI would funnel, prepare (normalize), and aggregate PTD for OCEAN marketplace consumptiom (i.e. data funnel) and analytics/learning. Devices would identify via ENS and be anonymized as necessary (different requirements for CVM and SVM). I envision a hierarchy of devices (I've set this up using ENS, but that would be optional):
+
+![EW AI Device Hierarchy](https://adivate.net/doc/ewai/EWCOrgDiagram.jpeg)
+
+A "pool" is a group of the same devices from a single vendor (mfg)...e.g. Pool P = Sum( all Vendor X Device Type Y devices). There may be multiple pools per vendor. How Pools and Networks correlate I'm not quite sure yet (maybe Pool = Network, but I envision there could be multiple Pools on each network).
+
+API handles multiple device and notification types (event, report) each with JSON data payload. This JSON payload could vary by event and device type (and even by Vendor).
 
 In CVM, since we would be able to learn from devices and networks across companies, manufacturers and networks, we may discover patterns that were heretofore unknown (and unpredicatble). E.g. we might learn that when Vendor X device X limits power to P, then Vendor Y device Y actually increases it's power consumption by 1.1*P, actually offsetting (and more) energy consumption to produce net energy waste. An example of this might help (wildly fictional): When home thermostat devices in homes are set to allow max temp Y when the ambient temperature is >Z, then we learn that consumers actually drive their cars MORE to the beach to cool off than we saved by limiting the thermostats (net energy waste, not gain). Again, this is a wildly fictional example, but it just may start ideas about what might be possible. This shows how IOT energy device data from 3 different vendors is cross analyzed (home thermostat IOT, car (EV) IOT, user Phone IOT (location data)).
 
@@ -66,15 +72,7 @@ Prototype would demonstrate how data could be handled from multiple devices (e.g
     - multiple networks (pools?)
     - multiple device types
     - one or more OCEAN algo's applied (very simple ones probably!)
-
-I envision a hierarchy of devices (I've set this up using ENS, but that would be optional):
-
-![EW AI Device Hierarchy](https://adivate.net/doc/ewai/EWCOrgDiagram.jpeg)
-
-A "pool" is a group of the same devices from a single vendor (mfg)...e.g. Pool P = Sum( all Vendor X Device Type Y devices). There may be multiple pools per vendor. How Pools and Networks correlate I'm not quite sure yet (maybe Pool = Network, but I envision there could be multiple Pools on each network).
-
-API handles multiple device and notification types (event, report) with JSON data payload (which could differ by event type, and device type and even by Vendor)
-    
+   
 ## Team
 * **Members**: Robert Anderson (Adivate.net, a division of Discovery Productions, Inc.)
 * **Code Repositories**: https://github.com/Rjrunner44/
