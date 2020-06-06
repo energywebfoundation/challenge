@@ -18,7 +18,7 @@ Premises and Overall Goal:
     3) To get patterns, we need to have data,
     4) To get data, we need EW-DOS IOT devices to send their Power Telemetry Data (PTD). Note that PTD (Power Telemetry Data) is a very open-ended term. It could encompass many different JSON data payloads/datasets with things from the device's power metrics, usage and consumption data, event related data, etc. 
 
-((DIAGRAM HERE))
+![EW AI Archecture Diagram](https://adivate.net/doc/ewai/EWAI-ArchDiagram.jpeg)
 
 This project would develop an end-to-end prototype of how this could be accomplished by creating an EW-DOS Energy IOT OCEAN Marketplace (app, api, etc.), showing how EW-DOS enabled IOT devices would be able to do this. 
 
@@ -36,7 +36,7 @@ This could enable two types of energy IOT data marketplaces, both private and pu
 
 EW-AI would funnel, prepare (normalize), and aggregate PTD for OCEAN marketplace consumptiom (i.e. data funnel) and analytics/learning. Devices would identify via ENS and be anonymized as necessary (different requirements for CVM and SVM). I envision a hierarchy of devices (I've set this up using ENS, but that would be optional):
 
-![EW AI Device Hierarchy](https://adivate.net/doc/ewai/EWCOrgDiagram2.jpeg)
+![EW AI Device Hierarchy](https://adivate.net/doc/ewai/EWAI-DeviceDiagram.jpeg)
 
 A "pool" is a group of the same devices from a single vendor (mfg)...e.g. Pool P = Sum( all Vendor X Device Type Y devices). There may be multiple pools per vendor. How Pools and Networks correlate I'm not quite sure yet (maybe Pool = Network, but I envision there could be multiple Pools on each network).
 
@@ -64,7 +64,7 @@ By exposing energy and power consumption data sets to the OCEAN marketplaces, we
 
     3. Prototype UI (Electron React.js app): showing how it could all be used together, and tied to OCEAN
 
-    ((DIAGRAMS HERE TBD))
+    ((UI DIAGRAM HERE TBD?))
 
 Prototype would demonstrate how data could be handled from multiple devices (e.g. Vendor, Network, Pool, Device struture and hierarchy, not fully fleshed out yet):
 
@@ -112,6 +112,8 @@ Most recent: Founded, developed, managed and sold an E-Commerce business. Develo
 
     - I will almost certainly need some advice/input from 1) IOT person (Vodaphone maybe?), 2) EW Dev, 3) OCEAN dev. I'm a solid dev, but still fairly new to crypto and EW/OCEAN. I understand all the basics and concepts.
 
+    - Since this system crosses two completely separate projects (EW and OCEAN Projects), it might get a more complicated than can be predicted/envisioned right now at the start.
+
     - This project will only use simulated EW-DOS devices and simulated data (i.e. we will make simulated JSON payloads for PTD). This leads me to wonder if there is an EW-DOS device simulator (maybe that is a separate dev project to do) which allows devices to be simulated, power profiles simulated, generates EW-AI data streams, etc. Ultimately, we'd like to register JSON schema by device, so it could be extensible and cross-analyziable (even across different networks, devices and manufacturers)
 
     - I'd be interested in doing follow-on projects for both EW and OCEAN
@@ -123,9 +125,10 @@ Most recent: Founded, developed, managed and sold an E-Commerce business. Develo
     - This project is a CONCEPTUAL PROTOTYPE (demonstrating end-to-end EW-DOS -> OCEAN connenctivity). Not included: 
 
         * How EW-AI is onboarded into EW-DO
-        * How vendors/manufacturers are onboarded into EW-AI
-        * How devices are fully authenticated/seured to connect to EW-AI (I will integrate with ENS though obviously), although I realize authentication will ultimately be required (maybe it can get in, not sure)s
-        * Performace tuning
+        * How vendors/manufacturers are onboarded/registered into EW-AI
+        * How devices are fully authenticated/secured (I will integrate with ENS though obviously) and I realize full authentication will ultimately be required
+        * How various JSON Data payloads are handled in multi/cross vendor analysis (JSON Schema will be required, etc.)
+        * Performace tuning of this concept
         * IT/Production/Operational deployments, etc.
 
 
