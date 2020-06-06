@@ -36,7 +36,7 @@ This could enable two types of energy IOT data marketplaces, both private and pu
 
 EW-AI would funnel, prepare (normalize), and aggregate PTD for OCEAN marketplace consumptiom (i.e. data funnel) and analytics/learning. Devices would identify via ENS and be anonymized as necessary (different requirements for CVM and SVM). I envision a hierarchy of devices (I've set this up using ENS, but that would be optional):
 
-![EW AI Device Hierarchy](https://adivate.net/doc/ewai/EWCOrgDiagram.jpeg)
+![EW AI Device Hierarchy](https://adivate.net/doc/ewai/EWCOrgDiagram2.jpeg)
 
 A "pool" is a group of the same devices from a single vendor (mfg)...e.g. Pool P = Sum( all Vendor X Device Type Y devices). There may be multiple pools per vendor. How Pools and Networks correlate I'm not quite sure yet (maybe Pool = Network, but I envision there could be multiple Pools on each network).
 
