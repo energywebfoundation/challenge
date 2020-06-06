@@ -1,5 +1,5 @@
 # Energy Web Innovation Challenge Proposal
-* **Project Name**: EW-OCEAN AI Bridge
+* **Project Name**: EWAI (EW to OCEAN AI Bridge)
 * **Project Proposer GitHub**: https://github.com/Rjrunner44/challenge.git
 * **Energy Web Chain Payment Address**: 0x882001eb216Dc32435aB7202ac09EcdC053f3376
 
@@ -9,7 +9,7 @@ BUILD AN EW-TO-OCEAN BRIDGE ENABLING POWER ANALYTICS AND INTELLIGENCE (A.I. LEAR
 
 1. OVERVIEW
 
-Create an EW to OCEAN API Bridge (EW-AI) which enables the creation of OCEAN IOT Energy Data Marketplace(s) fed by billions of EW-DOS enabled devices. The EW-DOS devices send Power Telemetry Data (PDT) about usage and consumption to the marketplace(s). OCEAN's data marketplaces would be an ideal way to apply AI learning to improve energy efficiency of IOT devices by studying patterns visible from their data.
+Create an EW to OCEAN API Bridge and subsystem (EWAI) which enables the creation of OCEAN IOT Energy Data Marketplace(s) fed by millions/billions of EW-DOS enabled devices. The EW-DOS devices send Power Telemetry Data (PDT) about usage and consumption to the marketplace(s). OCEAN's data marketplaces would be an ideal way to apply AI learning to improve energy efficiency of IOT devices by studying patterns visible from their real-world usage data.
 
 Premises and Overall Goal:
 
@@ -18,7 +18,7 @@ Premises and Overall Goal:
     3) To get patterns, we need to have data,
     4) To get data, we need EW-DOS IOT devices to send their Power Telemetry Data (PTD). Note that PTD (Power Telemetry Data) is a very open-ended term. It could encompass many different JSON data payloads/datasets with things from the device's power metrics, usage and consumption data, event related data, etc. 
 
-![EW AI Archecture Diagram](https://adivate.net/doc/ewai/EWAI-ArchDiagram.jpeg)
+![EWAI Archecture Diagram](https://adivate.net/doc/ewai/EWAI-ArchDiagram.jpeg)
 
 This project would develop an end-to-end prototype of how this could be accomplished by creating an EW-DOS Energy IOT OCEAN Marketplace (app, api, etc.), showing how EW-DOS enabled IOT devices would be able to do this. 
 
@@ -34,9 +34,9 @@ This could enable two types of energy IOT data marketplaces, both private and pu
     
     > Public Cross-vendor/network/manufacturer Marketplace (CVM): IOT devices publish their data (anonymously) for the benefit of all to analyze and learn from. The Data from multiple vendors, networks and devices could be aggregated, normalized, and cross-analyzied for pattern development and learning. In this case, for example, data from Vendor X cars, Vendor Y smart meters, and Vendor Z phone IOT devices would be availabe for cross analysis. Benefits of learning and pattern recognition would be available to all who contributed the data.
 
-EW-AI would funnel, prepare (normalize), and aggregate PTD for OCEAN marketplace consumptiom (i.e. data funnel) and analytics/learning. Devices would identify via ENS and be anonymized as necessary (different requirements for CVM and SVM). I envision a hierarchy of devices (I've set this up using ENS, but that would be optional):
+EWAI would funnel, prepare (normalize), and aggregate PTD for OCEAN marketplace consumptiom (i.e. data funnel) and analytics/learning. Devices would identify via ENS and be anonymized as necessary (different requirements for CVM and SVM). I envision a hierarchy of devices (I've set this up using ENS, but that would be optional):
 
-![EW AI Device Hierarchy](https://adivate.net/doc/ewai/EWAI-DeviceDiagram.jpeg)
+![EWAI Device Hierarchy](https://adivate.net/doc/ewai/EWAI-DeviceDiagram.jpeg)
 
 A "pool" is a group of the same devices from a single vendor (mfg)...e.g. Pool P = Sum( all Vendor X Device Type Y devices). There may be multiple pools per vendor. How Pools and Networks correlate I'm not quite sure yet (maybe Pool = Network, but I envision there could be multiple Pools on each network).
 
@@ -50,15 +50,15 @@ By exposing energy and power consumption data sets to the OCEAN marketplaces, we
 
     a) provide IOT power datasets for a fee (i.e. enable buy/sell of energy data)
 
-    b) provide EW-AI as a service to manufacturers of EW-DOS enabled devices and energy network providers
+    b) provide EWAI as a service to manufacturers of EW-DOS enabled devices and energy network providers
 
     c) provide architecture and analytics as a service (Actual AI algos) to IOT manufacturers of EW-DOS enabled devices
 
-    d) Offer EW-AI integration and analysis/consulting services to IOT vendors
+    d) Offer EWAI integration and analysis/consulting services to IOT vendors
 
 3. PROPOSED ARCHITETURE & DELIVERABLES:
 
-    1. EWAI API - Thin client REST API (either Typescript/Node.js or Golang, JSON, Swagger Docs): Ultimately, we'd have to optimize this for millions of TPS, probably using traditional cloud based architecture deployment. This would enable EW-AI to be integrated easily into many different EW-DOS clients,
+    1. EWAI API - Thin client REST API (either Typescript/Node.js or Golang, JSON, Swagger Docs): Ultimately, we'd have to optimize this for millions of TPS, probably using traditional cloud based architecture deployment. This would enable EWAI to be integrated easily into many different EW-DOS clients,
 
     2. EWAI Data Mgr - Back Eend Data Model/DB (Either SQL or NoSQL, Both?, Mongo?, other?): This protoype would hand-code scheme, no UI for the DB is called for (would be possible later of course). This module would also be responsible for data aggregation, normalization, association, staging and meta-data prep to get it ready for OCEAN
 
@@ -116,7 +116,7 @@ Most recent: Founded, developed, managed and sold an E-Commerce business. Develo
 
     - Since this system crosses two completely separate projects (EW and OCEAN Projects), it might get a more complicated than can be predicted/envisioned right now at the start.
 
-    - This project will only use simulated EW-DOS devices and simulated data (i.e. we will make simulated JSON payloads for PTD). This leads me to wonder if there is an EW-DOS device simulator (maybe that is a separate dev project to do) which allows devices to be simulated, power profiles simulated, generates EW-AI data streams, etc. Ultimately, we'd like to register JSON schema by device, so it could be extensible and cross-analyziable (even across different networks, devices and manufacturers)
+    - This project will only use simulated EW-DOS devices and simulated data (i.e. we will make simulated JSON payloads for PTD). This leads me to wonder if there is an EW-DOS device simulator (maybe that is a separate dev project to do) which allows devices to be simulated, power profiles simulated, generates EWAI data streams, etc. Ultimately, we'd like to register JSON schema by device, so it could be extensible and cross-analyziable (even across different networks, devices and manufacturers)
 
     - I'd be interested in doing follow-on projects for both EW and OCEAN
 
@@ -126,8 +126,8 @@ Most recent: Founded, developed, managed and sold an E-Commerce business. Develo
 
     - This project is a CONCEPTUAL PROTOTYPE (demonstrating end-to-end EW-DOS -> OCEAN connenctivity). Not included: 
 
-        * How EW-AI is onboarded into EW-DO
-        * How vendors/manufacturers are onboarded/registered into EW-AI
+        * How EWAI is onboarded into EW-DO
+        * How vendors/manufacturers are onboarded/registered into EWAI
         * How devices are fully authenticated/secured (I will integrate with ENS though obviously) and I realize full authentication will ultimately be required
         * How various JSON Data payloads are handled in multi/cross vendor analysis (JSON Schema will be required, etc.)
         * Performace tuning of this concept
