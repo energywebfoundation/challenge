@@ -49,7 +49,8 @@ API handles multiple device and notification types (event, report) each with an 
 
     {
         "ew-ai": {
-            "did": "did:ethr:0xD845B41AB4837E06Aa7335E31D98c9097a064891.vx.ocean.ewc",
+            "id": "did:ethr:0xD845B41AB4837E06Aa7335E31D98c9097a064891",
+            "vendor": "vx.ocean.ewc",
             "timestamp": "2020-08-23T18:25:43.511Z",
             "eventype": "report",
             "data": {
@@ -157,7 +158,7 @@ Most recent: Founded, developed, managed and sold an E-Commerce business. Develo
 
     - Are there any specific open source platforms, projects or repositories I cannot utilize in making this?
 
-    - Is EWAI "part of" EW-DOS or is it separate. If separate, even non EW-DOS IOT devices might send data into it 
+    - Is EWAI "part of" EW-DOS or is it separate. If separate, even non EW-DOS IOT devices might send data into it.
 
     - This project is a CONCEPTUAL PROTOTYPE (demonstrating end-to-end EW-DOS -> OCEAN connenctivity). Not included: 
 
