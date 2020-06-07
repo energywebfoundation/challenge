@@ -17,7 +17,7 @@ Premises and Overall Goal:
     3) To get patterns, we need to have data,
     4) To get data, we need EW-DOS IOT devices to send their Power Telemetry Data (PTD). Note that PTD (Power Telemetry Data) is a very open-ended term. It could encompass many different JSON data payloads/datasets with things from the device's power metrics, usage and consumption data, event related data, etc. 
 
-![EWAI Archecture Diagram](https://adivate.net/doc/ewai/EWAI-ArchDiagram-V2.jpeg)
+![EWAI Archecture Diagram](https://adivate.net/doc/ewai/EWAI-ArchDiagram-V3.jpeg)
 
 This project would develop an end-to-end prototype of how this could be accomplished by creating an EW-DOS Energy IOT OCEAN Marketplace (app, api, etc.), showing how EW-DOS enabled IOT devices would be able to do this. 
 
@@ -52,7 +52,7 @@ API handles multiple device and notification types (event, report) each with an 
             "id": "did:ethr:0xD845B41AB4837E06Aa7335E31D98c9097a064891",
             "vendor": "vx.ocean.ewc",
             "timestamp": "2020-08-23T18:25:43.511Z",
-            "eventype": "report",
+            "type": " event | report",
             "data": {
                 "power": 1,
                 "duration": 47.4,
