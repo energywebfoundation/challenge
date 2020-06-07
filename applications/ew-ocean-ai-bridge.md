@@ -45,7 +45,33 @@ I envision a hierarchy of devices (I've set this up using ENS, but that would be
 
 A "pool" is a group of the same devices from a single vendor (mfg)...e.g. Pool P = Sum( all Vendor X Device Type Y devices). There may be multiple pools per vendor. How Pools and Networks correlate I'm not quite sure yet (maybe Pool = Network, but I envision there could be multiple Pools on each network).
 
-API handles multiple device and notification types (event, report) each with JSON data payload. This JSON payload could vary by event and device type (and even by Vendor).
+API handles multiple device and notification types (event, report) each with an associated JSON data payload. The JSON data payload structure and content could vary by event and device type (and even by Vendor). We cannot envision all the kinds of data that will go over the interface, and it should be flexible to handle whatever someone whats to capture. It will be up to the EWAI Data Mgr to allow a JSON Schema to be registered against various vendors, devices, and event/report types to allow meaningful interpretation of the data. Example (fictional) shown below. The "data" element is the actual JSON PTD data paylod portion:
+
+    {
+        "ew-ai": {
+            "did": "did:ethr:0xD845B41AB4837E06Aa7335E31D98c9097a064891.vx.ocean.ewc",
+            "timestamp": "2020-08-23T18:25:43.511Z",
+            "eventype": "report",
+            "data": {
+                "power": 1,
+                "duration": 47.4,
+                "metrics": [
+                    {
+                        "acceleration": "47",
+                        "sensor": "A"
+                    },
+                    {
+                        "deceleration": "51",
+                        "sensor": "B"
+                    },
+                    {
+                        "specificity": "14.9",
+                        "sensor": "C"
+                    }
+                ]
+            }
+        }
+    }
 
 In CVM, since we would be able to learn from devices and networks across companies, manufacturers and networks, we may discover patterns that were heretofore unknown (and unpredicatble). E.g. we might learn that when Vendor X device X limits power to P, then Vendor Y device Y actually increases it's power consumption by 1.1*P, actually offsetting (and more) energy consumption to produce net energy waste. An example of this might help (wildly fictional): When home thermostat devices in homes are set to allow max temp Y when the ambient temperature is >Z, then we learn that consumers actually drive their cars MORE to the beach to cool off than we saved by limiting the thermostats (net energy waste, not gain). Again, this is a wildly fictional example, but it just may start ideas about what might be possible. This shows how IOT energy device data from 3 different vendors is cross analyzed (home thermostat IOT, car (EV) IOT, user Phone IOT (location data)).
 
