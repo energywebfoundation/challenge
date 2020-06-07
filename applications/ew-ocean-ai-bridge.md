@@ -10,7 +10,6 @@ BUILD AN EW-TO-OCEAN BRIDGE ENABLING POWER ANALYTICS AND INTELLIGENCE (A.I. LEAR
 1. OVERVIEW
 
 Create an EW to OCEAN API Bridge and subsystem (EWAI) which enables the creation of OCEAN IOT Energy Data Marketplace(s) fed by millions/billions of EW-DOS enabled devices. The EW-DOS devices send Power Telemetry Data (PDT) about usage and consumption to the marketplace(s). OCEAN's data marketplaces would be an ideal way to apply AI learning to improve energy efficiency of IOT devices by studying patterns visible from their real-world usage data.
-
 Premises and Overall Goal:
 
     1) To improve the efficiency of IOT energy devices and networks, we need to learn from them by collecting and analyzing real-world consumptiom data analysis,
@@ -34,7 +33,13 @@ This could enable two types of energy IOT data marketplaces, both private and pu
     
     > Public Cross-vendor/network/manufacturer Marketplace (CVM): IOT devices publish their data (anonymously) for the benefit of all to analyze and learn from. The Data from multiple vendors, networks and devices could be aggregated, normalized, and cross-analyzied for pattern development and learning. In this case, for example, data from Vendor X cars, Vendor Y smart meters, and Vendor Z phone IOT devices would be availabe for cross analysis. Benefits of learning and pattern recognition would be available to all who contributed the data.
 
-EWAI would funnel, prepare (normalize), and aggregate PTD for OCEAN marketplace consumptiom (i.e. data funnel) and analytics/learning. Devices would identify via ENS and be anonymized as necessary (different requirements for CVM and SVM). I envision a hierarchy of devices (I've set this up using ENS, but that would be optional):
+EWAI would funnel, prepare (normalize), and aggregate PTD for OCEAN marketplace consumptiom (i.e. data funnel) and analytics/learning. Devices would identify via ENS and be anonymized as necessary (different requirements for CVM and SVM). This prototype will focus on a SVM implementation but the real benefit of OCEAN powered AI learning would be realized when able to look at cross vendor patterns (and cross device, cross network, etc), using anonymous data sets, so vendors could learn from others in system aggregate consumption analysis.
+
+IOT-X Data
+
+    - It should be possible in later iterations of this system to add/merge data external to the acdtual IOT devices themselves (IOT-X) into the system for correlation and analsis. For example, add tire make and model into EV IOT PTD data in a correlated fashion. Such IOT-X data might enable learning about patterns and trends which go beyond pure PTD input data, to achieve broader leaerning and carbon cleansing. (e.g. the effect of specific tire brands, treads, etc on energy consumption). This would open up the data marketplace to be of interest to many more vendors than just IOT manufacturers.
+
+I envision a hierarchy of devices (I've set this up using ENS, but that would be optional):
 
 ![EWAI Device Hierarchy](https://adivate.net/doc/ewai/EWAI-DeviceDiagram.jpeg)
 
@@ -110,7 +115,9 @@ Most recent: Founded, developed, managed and sold an E-Commerce business. Develo
 
     - This project is not trading or buying/selling energy contracts (that's a whole different market than the focus of this project)
 
-    - I will almost certainly need some advice/input from 1) IOT person (Vodaphone maybe?), 2) EW Dev, 3) OCEAN dev. I'm a solid dev, but still fairly new to crypto and EW/OCEAN. I understand all the basics and concepts.
+    - I will almost certainly need some advice/input from 1) IOT person (Vodaphone maybe?), 2) EW Dev, 3) OCEAN dev. I'm a solid dev, but still fairly new to blockchain although I understand all the basics and concepts.
+
+    - I'd like to get some "realistic" PTD to send into the system to model all this, so at least it yields some kind of analysis and learning which is meaningful (i.e. not compoletely contrived just to prove concept)
 
     - Since I'm new to BOTH project (EW and OCEAN), I've tried to be a bit conservative in the schedule. Hoefully things will go faster, but we'll see as things progress.
 
@@ -123,6 +130,8 @@ Most recent: Founded, developed, managed and sold an E-Commerce business. Develo
     - If I fork from other projects to make some of this, is there a specific licensse type that I'm limited to using?
 
     - Are there any specific open source platforms, projects or repositories I cannot utilize in making this?
+
+    - Is EWAI "part of" EW-DOS or is it separate. If separate, even non EW-DOS IOT devices might send data into it 
 
     - This project is a CONCEPTUAL PROTOTYPE (demonstrating end-to-end EW-DOS -> OCEAN connenctivity). Not included: 
 
