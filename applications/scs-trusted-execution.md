@@ -56,7 +56,7 @@ A simplified walk through goes like this:
 
 1. The user (requester) queries the worker registry and selects one worker abitrarily and remembers it's signing key which will be used to authenticate that worker.
 1. the user asks the selected worker for the shielding key
-1. the user encrypts a `TrustedCall` with the shielding key and sends the cyphertext to the chain
+1. the user signs and `TrustedCall`, encrypts it with the shielding key and sends the cyphertext to the chain
 1. the worker enclave detects a new call and decrypts and processes it as soon as the block that includes the call has been finalized (*for ethereum there is no finality, but for EW chain being PoA this should not be an issue. SubstraTEE assumes finality and has no rollback features in the case of forks*)
 1. the worker enclave send a confirmation extrinsic to the chain including the hash of the updated state
 1. the user can verify updated state (i.e. a balance change on a private account) by sending an encrypted and signed `TrustedGetter` to the worker's websocket api.
