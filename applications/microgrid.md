@@ -49,7 +49,7 @@ We are a group of 5 UC Berkeley students part of Blockchain at Berkeley.
 * Total Estimated Duration: 14 weeks
   * Limited PoC already complete
 
-### Milestone 1: Rinkby -> Volta Testnet
+### Milestone 1: Rinkeby -> Volta Testnet
 * Estimated Duration: 4 weeks
 
 ### Milestone 2: EW Origin & SSI functionality
