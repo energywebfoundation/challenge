@@ -31,7 +31,7 @@ This platform will assign individual energy producers and consumers to microgrid
   * Ratan Kaliani ([GitHub](https://github.com/ratankaliani) | [LinkedIn](https://www.linkedin.com/in/ratankaliani))
   * Ruhi Pudipeddi ([GitHub](https://github.com/ruhi1999) | [LinkedIn](https://www.linkedin.com/in/ruhip/))
   * Saahil Shangle ([GitHub](https://github.com/saahilshangle) | [LinkedIn](https://www.linkedin.com/in/saahilshangle))
-  * Kelvin Xu ([LinkedIn](https://www.linkedin.com/in/kelvinxu97))
+  * Kelvin Xu ([GitHub](https://github.com/kelvinxu97) | [LinkedIn](https://www.linkedin.com/in/kelvinxu97))
 * **Website**: https://blockchain.berkeley.edu/
 * **Team's Experience**:
 We are a group of 5 UC Berkeley students part of Blockchain at Berkeley. 
