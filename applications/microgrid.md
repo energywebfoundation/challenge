@@ -17,12 +17,13 @@ When a prosumer generates power, excess (defined as amounts not expended by the 
 The user flow will begin with the authentication login page. Once a user logs in, they will be taken to a splash page showing several “feeds”. One will be a catalog of energy shares that have been bought, one will be a catalog of energy shares that have been sold, and below both feeds will be a variety of metrics that indicate user “performance” over time. These metrics in specific will be determined after evaluating what information is valuable to users; one example is a line graph showing surplus energy held over time so users can determine whether their buy/sell strategy is wasteful or on-par with their expectations. The visual portrayals of these metrics will provide important information that will help users contextualize the value of energy they are trading through methods like translating energy amounts into recognizable figures (e.g. “You sold enough energy last month to power an 8-floor apartment building!”). A settings page will allow users to edit profile information and adjust two key metrics: their maximum buying price and minimum selling price. We plan to perform exhaustive user testing in both Figma and our fully developed application for usability and feedback in low-fidelity and high-fidelity iterations.
 
 <sub>Click below for a short demo</sub><br>
-[![Demo](https://saahilshangle.github.io/images/microgrid_home.jpg)](https://www.youtube.com/watch?v=abb4BOO2_os)
+[<img src="https://saahilshangle.github.io/images/microgrid_home.jpg" width="50%" length="50%"/>](https://www.youtube.com/watch?v=abb4BOO2_os)
 
 ### Architecture
 This platform will assign individual energy producers and consumers to microgrid regions where sellers and buyers are matched off-chain. We utilize blockchain to execute energy transactions and maintain a complete record of them. EW-Chain smart contracts will handle the exchange of energy rights with EWT/EAC ERC-721 tokens. However, the user experience will be largely abstracted away from the blockchain, and transactions are automated to minimize costs through a continuous process of dynamic energy pricing. A decentralized ledger provides transparent pseudonymous neighbor to neighbor energy management that significantly reduces reliance and expected costs associated with a single energy provider. A web interface will abstract low level blockchain computation, and assist the user in understanding their energy transactions on the microgrid. //@Omkar make more technical, add MERN stack, check differences in architecture when building dApp on EW Client. 
 
-[![dApp flow](https://saahilshangle.github.io/images/dapp_flow.jpg)](https://docs.google.com/presentation/d/1NNWVx2BMPqyycyE4lmdhekEvGsu1hgPRqYgJBBLIQYQ/edit?usp=sharing)
+<sub>Click below for a full deck</sub><br>
+[<img src="https://saahilshangle.github.io/images/dapp_flow.jpg" width="50%" length="50%"/>](https://docs.google.com/presentation/d/1NNWVx2BMPqyycyE4lmdhekEvGsu1hgPRqYgJBBLIQYQ/edit?usp=sharing)
 
 ## Team
 * **Members**: 
