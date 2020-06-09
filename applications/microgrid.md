@@ -18,7 +18,7 @@ Commercialization could come from several possible avenues, we propose either an
 ### User Flow
 The user flow will begin with the authentication login page. Once a user logs in, they will be taken to a splash page showing several “feeds”. One will be a catalog of energy shares that have been bought, one will be a catalog of energy shares that have been sold, and below both feeds will be a variety of metrics that indicate user “performance” over time. These metrics in specific will be determined after evaluating what information is valuable to users; one example is a line graph showing surplus energy held over time so users can determine whether their buy/sell strategy is wasteful or on-par with their expectations. The visual portrayals of these metrics will provide important information that will help users contextualize the value of energy they are trading through methods like translating energy amounts into recognizable figures (e.g. “You sold enough energy last month to power an 8-floor apartment building!”). A settings page will allow users to edit profile information and adjust two key metrics: their maximum buying price and minimum selling price. We plan to perform exhaustive user testing in both Figma and our fully developed application for usability and feedback in low-fidelity and high-fidelity iterations.
 
-<sub>Click below for a short demo</sub>
+<sub>Click below for a short demo</sub><br>
 [![Demo](https://saahilshangle.github.io/images/microgrid_home.jpg)](https://www.youtube.com/watch?v=abb4BOO2_os)
 
 ### Architecture
