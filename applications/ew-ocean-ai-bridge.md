@@ -76,6 +76,28 @@ API handles multiple device and notification types (event, report) each with an 
 
 In CVM, since we would be able to learn from devices and networks across companies, manufacturers and networks, we may discover patterns that were heretofore unknown (and unpredicatble). E.g. we might learn that when Vendor X device X limits power to P, then Vendor Y device Y actually increases it's power consumption by 1.1*P, actually offsetting (and more) energy consumption to produce net energy waste. An example of this might help (wildly fictional): When home thermostat devices in homes are set to allow max temp Y when the ambient temperature is >Z, then we learn that consumers actually drive their cars MORE to the beach to cool off than we saved by limiting the thermostats (net energy waste, not gain). Again, this is a wildly fictional example, but it just may start ideas about what might be possible. This shows how IOT energy device data from 3 different vendors is cross analyzed (home thermostat IOT, car (EV) IOT, user Phone IOT (location data)).
 
+FLOW
+
+The (rough) general system flow would be as follows:
+
+    - DATA PRODUCERS (Vendors, i.e. device manufacturers):
+        1. Register their company with EW-AI Marketplace (via ENS)
+        2. Register their device types (via ENS)
+        3. Setup pool(s) of devices (optional, pools might allow for different trials on the same device) (via ENS again)
+        4. Register their device specs (This really is what the IOT-X data pool is for, so the device/mfg specs aren't replicated a million times)
+        5. Integrate EW-DOS with EW-AI
+        6. Have devices send their PTD data into EW-AI API
+        7. Define who can access their data, costs in OCEAN, etc
+
+    - DATA CONSUMERS (these could be the same vendors, or even 3rd parties)
+        1. Register with EW-AI Marketplace
+        2. Search/Find IOT PTD data sets (this can also be done via filtering, grouping, aggregation, normalization, etc. search by mfg, device, type, data captured, etc)
+        3. Have EW-AI prepare those sets for OCEAN (EW-AI handles all the details here)
+        4. Apply learning
+        5. Get results -> make their devices more efficient.
+
+The flow above is simplified, eventually it would need to handle CVM marketplaces, where vendors could permission selected other vendors to learn from their data, aggregate data ACROSS vendor devices, find patterns across networks and devices, etc...
+
 2. FUTURE MONETIZATION:
 
 By exposing energy and power consumption data sets to the OCEAN marketplaces, we might enable the following monetization Areas:
@@ -90,7 +112,7 @@ By exposing energy and power consumption data sets to the OCEAN marketplaces, we
 
 3. PROPOSED ARCHITETURE & DELIVERABLES:
 
-    1. EW-AI API - Thin client REST API. Suggested: implementation, either Typescript/Node.js or Golang, JSON, Swagger Docs. Ultimately, we'd have to optimize this for millions of TPS, probably using traditional cloud based architecture deployment. This would enable EW-AI to be integrated easily into many different EW-DOS clients,
+    1. EW-AI API - Thin client REST API. Suggested: implementation, either Typescript/Node.js or Golang, JSON, Swagger Docs. Ultimately, we'd have to optimize this for millions of TPS, probably using traditional cloud based architecture deployment. This would enable EW-AI to be integrated easily into many different EW-DOS clients. 
 
     2. EW-AI DB - Back End Data Model/DB. Suggested: NoSQL (Mongo) but could be SQL also. This protoype would hand-code scheme, no UI for the DB is called for (would be possible later of course). This module would also be responsible for data aggregation, normalization, association, staging and meta-data prep to get it ready for OCEAN
 
@@ -98,7 +120,7 @@ By exposing energy and power consumption data sets to the OCEAN marketplaces, we
 
     A rough guess on the amount of work divided across the 3 areas would be: 20% (API), 15% (DB), 65% (Data Marketplace)
 
-![EW-AI Marketplace Diagram](https://adivate.net/doc/ewai/EWAI-Marketplace-SVM-V2.jpeg)
+![EW-AI Marketplace Diagram](https://adivate.net/doc/ewai/EWAI-Marketplace-SVM-V3.jpeg)
 
 Prototype would demonstrate how data could be handled from multiple devices (e.g. multiple Vendors, Networks, Pools, etc) as shown in the device hierarchy diagram (the concept of device pools is not fully fleshed out yet though and will evolve based on feedback with IOT vendors). The IOT hierarchy needs to account for:
 
@@ -169,6 +191,10 @@ Most recent: Founded, developed, managed and sold an E-Commerce business. Develo
         * How various JSON Data payloads are handled in multi/cross vendor analysis (JSON Schema will be required, etc.)
         * Performace tuning of this concept
         * IT/Production/Operational deployments, etc.
+
+    - The whole project could also be done on .net core/MVC also. It could also be ported to that platform later
+
+    - Legacy IOT data could be imported into this system also (potentially, not part of this project of course, but very doable)
 
 
 
