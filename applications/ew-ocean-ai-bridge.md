@@ -98,7 +98,7 @@ By exposing energy and power consumption data sets to the OCEAN marketplaces, we
 
     A rough guess on the amount of work divided across the 3 areas would be: 20% (API), 15% (DB), 65% (Data Marketplace)
 
-![EW-AI Marketplace Diagram](https://adivate.net/doc/ewai/EWAI-ArchDiagram-V5.jpeg)
+![EW-AI Marketplace Diagram](https://adivate.net/doc/ewai/EWAI-Marketplace-SVM.jpeg)
 
 Prototype would demonstrate how data could be handled from multiple devices (e.g. multiple Vendors, Networks, Pools, etc) as shown in the device hierarchy diagram (the concept of device pools is not fully fleshed out yet though and will evolve based on feedback with IOT vendors). The IOT hierarchy needs to account for:
 
