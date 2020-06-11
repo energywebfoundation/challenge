@@ -42,11 +42,13 @@ We are a group of 5 UC Berkeley students part of Blockchain at Berkeley.
     * Languages: Python, Golang, Java, Javascript, Solidity, SQL
     * Tools/Frameworks: React, MongoDB, Express, Spring, Firebase, Docker, AWS, Kubernetes, Spark, Tableau, Truffle
   * **Ratan** is a rising sophomore studying EECS, and a former Cisco software intern fascinated by the Internet of Things, Blockchain & Big Data. Currently, Ratan is a Software Engineer Intern at Virgil Quantitative Research (VQR), a quantitative cryptocurrency trading firm based out of NYC, researching the emerging Decentralized Finance (DeFi) market.
-    * Skills: 
+    * Skills: Python, JavaScript, ReactJS, MongoDB, Solidity, NodeJS, Smart Contracts, Web Development, UI/UX Design, market analysis, IoT technologies
   * **Ruhi** is a rising senior, studying Computer Science & City Planning. She’s currently interning at Lyft in their autonomous vehicle/self-driving division and is interested in the intersections of software and urban design.
     * Skills: 
   * **Saahil** is a rising junior studying Data Science & Business Administration with internship experience as a PayPal Strategy Analyst and Cisco Product Manager. He is Vice President of a student run pro bono consulting organization and enjoys working on projects that bridge social impact and technology. 
-    * Skills: U.S. energy regulation/initiative domain knowledge, smart contract design, competitive market analysis, commericialization strategy, and web development
+    * Skills: U.S. energy regulation/initiative domain knowledge, smart contract design, competitive market analysis, commericialization strategy
+    * Languages: Java, Python, JavaScript, Solidity, HTML5/CSS3, R, SQL
+    * Libraries/Frameworks: NumPy, Pandas, Express, React, Node.js, Scikit-learn
   * **Kelvin** is a rising senior studying Economics, Logic, and Data Science. He is very passionate about trading and studying secondary markets. In 2018, he took a gap year from UC Berkeley and became a full time trader at Amber AI, a leading cryptocurrency hedge fund and liquidity provider. He joined Blockchain at Berkeley earlier that year as a Public Relations Officer, contributed to the student club’s marketing and branding efforts, and is now with the consulting division. Kelvin is currently interning at the Sales and Trading department at Morgan Stanley.
     * Skills: U.S. energy market landscape knowledge, smart contract design, competitive market analysis, market making strategies, and financial modeling
 
