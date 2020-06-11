@@ -17,7 +17,7 @@ Premises and Overall Goal:
     3) To get patterns, we need to have data,
     4) To get data, we need EW-DOS IOT devices to send their Power Telemetry Data (PTD). Note that PTD (Power Telemetry Data) is a very open-ended term. It could encompass many different JSON data payloads/datasets with things from the device's power metrics, usage and consumption data, event related data, etc. 
 
-![EW-AI Archecture Diagram](https://adivate.net/doc/EWAI/EWAI-ArchDiagram-V5.jpeg)
+![EW-AI Archecture Diagram](https://adivate.net/doc/ewai/EWAI-ArchDiagram-V5.jpeg)
 
 This project would develop an end-to-end prototype of how this could be accomplished by creating an EW-DOS Energy IOT OCEAN Marketplace (app, api, etc.), showing how EW-DOS enabled IOT devices would be able to do this. 
 
@@ -41,7 +41,7 @@ IOT-X Data
 
 I envision a hierarchy of devices (I've set this up using ENS, but that would be optional):
 
-![EW-AI Device Hierarchy](https://adivate.net/doc/EWAI/EWAI-DeviceDiagram.jpeg)
+![EW-AI Device Hierarchy](https://adivate.net/doc/ewai/EWAI-DeviceDiagram.jpeg)
 
 A "pool" is a group of the same devices from a single vendor (mfg)...e.g. Pool P = Sum( all Vendor X Device Type Y devices). There may be multiple pools per vendor. How Pools and Networks correlate I'm not quite sure yet (maybe Pool = Network, but I envision there could be multiple Pools on each network).
 
@@ -98,7 +98,7 @@ By exposing energy and power consumption data sets to the OCEAN marketplaces, we
 
     A rough guess on the amount of work divided across the 3 areas would be: 20% (API), 15% (DB), 65% (Data Marketplace)
 
-![EW-AI Marketplace DIagram](https://adivate.net/doc/EWAI/EWAI-ArchDiagram-V5.jpeg)
+![EW-AI Marketplace Diagram](https://adivate.net/doc/ewai/EWAI-ArchDiagram-V5.jpeg)
 
 Prototype would demonstrate how data could be handled from multiple devices (e.g. multiple Vendors, Networks, Pools, etc) as shown in the device hierarchy diagram (the concept of device pools is not fully fleshed out yet though and will evolve based on feedback with IOT vendors). The IOT hierarchy needs to account for:
 
