@@ -1,5 +1,5 @@
 # Energy Web Innovation Challenge Proposal
-* **Project Name**: EWAI (EW to OCEAN AI Bridge)
+* **Project Name**: EW-AI (EW to OCEAN AI Bridge)
 * **Project Proposer GitHub**: https://github.com/Rjrunner44/challenge.git
 * **Energy Web Chain Payment Address**: 0x882001eb216Dc32435aB7202ac09EcdC053f3376
 
@@ -9,7 +9,7 @@ BUILD AN EW-TO-OCEAN BRIDGE ENABLING POWER ANALYTICS AND INTELLIGENCE (A.I. LEAR
 
 1. OVERVIEW
 
-Create an EW to OCEAN API Bridge and subsystem (EWAI) which enables the creation of OCEAN IOT Energy Data Marketplace(s) fed by millions/billions of EW-DOS enabled devices. The EW-DOS devices send Power Telemetry Data (PDT) about usage and consumption to the marketplace(s). OCEAN's data marketplaces would be an ideal way to apply AI learning to improve energy efficiency of IOT devices by studying patterns visible from their real-world usage data.
+Create an EW to OCEAN API Bridge and subsystem (EW-AI) which enables the creation of OCEAN IOT Energy Data Marketplace(s) fed by millions/billions of EW-DOS enabled devices. The EW-DOS devices send Power Telemetry Data (PDT) about usage and consumption to the marketplace(s). OCEAN's data marketplaces would be an ideal way to apply AI learning to improve energy efficiency of IOT devices by studying patterns visible from their real-world usage data.
 Premises and Overall Goal:
 
     1) To improve the efficiency of IOT energy devices and networks, we need to learn from them by collecting and analyzing real-world consumptiom data analysis,
@@ -17,7 +17,7 @@ Premises and Overall Goal:
     3) To get patterns, we need to have data,
     4) To get data, we need EW-DOS IOT devices to send their Power Telemetry Data (PTD). Note that PTD (Power Telemetry Data) is a very open-ended term. It could encompass many different JSON data payloads/datasets with things from the device's power metrics, usage and consumption data, event related data, etc. 
 
-![EWAI Archecture Diagram](https://adivate.net/doc/ewai/EWAI-ArchDiagram-V4.jpeg)
+![EW-AI Archecture Diagram](https://adivate.net/doc/EWAI/EWAI-ArchDiagram-V5.jpeg)
 
 This project would develop an end-to-end prototype of how this could be accomplished by creating an EW-DOS Energy IOT OCEAN Marketplace (app, api, etc.), showing how EW-DOS enabled IOT devices would be able to do this. 
 
@@ -33,7 +33,7 @@ This could enable two types of energy IOT data marketplaces, both private and pu
     
     > Public Cross-vendor/network/manufacturer Marketplace (CVM): IOT devices publish their data (anonymously) for the benefit of all to analyze and learn from. The Data from multiple vendors, networks and devices could be aggregated, normalized, and cross-analyzied for pattern development and learning. In this case, for example, data from Vendor X cars, Vendor Y smart meters, and Vendor Z phone IOT devices would be availabe for cross analysis. Benefits of learning and pattern recognition would be available to all who contributed the data.
 
-EWAI would funnel, prepare (normalize), and aggregate PTD for OCEAN marketplace consumptiom (i.e. data funnel) and analytics/learning. Devices would identify via ENS and be anonymized as necessary (different requirements for CVM and SVM). This prototype will focus on a SVM implementation but the real benefit of OCEAN powered AI learning would be realized when able to look at cross vendor patterns (and cross device, cross network, etc), using anonymous data sets, so vendors could learn from others in system aggregate consumption analysis.
+EW-AI would funnel, prepare (normalize), and aggregate PTD for OCEAN marketplace consumptiom (i.e. data funnel) and analytics/learning. Devices would identify via ENS and be anonymized as necessary (different requirements for CVM and SVM). This prototype will focus on a SVM implementation but the real benefit of OCEAN powered AI learning would be realized when able to look at cross vendor patterns (and cross device, cross network, etc), using anonymous data sets, so vendors could learn from others in system aggregate consumption analysis.
 
 IOT-X Data
 
@@ -41,14 +41,14 @@ IOT-X Data
 
 I envision a hierarchy of devices (I've set this up using ENS, but that would be optional):
 
-![EWAI Device Hierarchy](https://adivate.net/doc/ewai/EWAI-DeviceDiagram.jpeg)
+![EW-AI Device Hierarchy](https://adivate.net/doc/EWAI/EWAI-DeviceDiagram.jpeg)
 
 A "pool" is a group of the same devices from a single vendor (mfg)...e.g. Pool P = Sum( all Vendor X Device Type Y devices). There may be multiple pools per vendor. How Pools and Networks correlate I'm not quite sure yet (maybe Pool = Network, but I envision there could be multiple Pools on each network).
 
-API handles multiple device and notification types (event, report) each with an associated JSON data payload. The JSON data payload structure and content could vary by event and device type (and even by Vendor). We cannot envision all the kinds of data that will go over the interface, and it should be flexible to handle whatever someone whats to capture. It will be up to the EWAI Data Mgr to allow a JSON Schema to be registered against various vendors, devices, and event/report types to allow meaningful interpretation of the data. Example (fictional) shown below. The "data" element is the actual JSON PTD data paylod portion:
+API handles multiple device and notification types (event, report) each with an associated JSON data payload. The JSON data payload structure and content could vary by event and device type (and even by Vendor). We cannot envision all the kinds of data that will go over the interface, and it should be flexible to handle whatever someone whats to capture. It will be up to the EW-AI Data Mgr to allow a JSON Schema to be registered against various vendors, devices, and event/report types to allow meaningful interpretation of the data. Example (fictional) shown below. The "data" element is the actual JSON PTD data paylod portion:
 
     {
-        "ew-ai": {
+        "ewai": {
             "id": "did:ethr:0xD845B41AB4837E06Aa7335E31D98c9097a064891",
             "vendor": "vx.ocean.ewc",
             "timestamp": "2020-08-23T18:25:43.511Z",
@@ -82,23 +82,25 @@ By exposing energy and power consumption data sets to the OCEAN marketplaces, we
 
     a) provide IOT power datasets for a fee (i.e. enable buy/sell of energy data)
 
-    b) provide EWAI as a service to manufacturers of EW-DOS enabled devices and energy network providers
+    b) provide EW-AI as a service to manufacturers of EW-DOS enabled devices and energy network providers
 
     c) provide architecture and analytics as a service (Actual AI algos) to IOT manufacturers of EW-DOS enabled devices
 
-    d) Offer EWAI integration and analysis/consulting services to IOT vendors
+    d) Offer EW-AI integration and analysis/consulting services to IOT vendors
 
 3. PROPOSED ARCHITETURE & DELIVERABLES:
 
-    1. EWAI API - Thin client REST API (either Typescript/Node.js or Golang, JSON, Swagger Docs): Ultimately, we'd have to optimize this for millions of TPS, probably using traditional cloud based architecture deployment. This would enable EWAI to be integrated easily into many different EW-DOS clients,
+    1. EW-AI API - Thin client REST API. Suggested: implementation, either Typescript/Node.js or Golang, JSON, Swagger Docs. Ultimately, we'd have to optimize this for millions of TPS, probably using traditional cloud based architecture deployment. This would enable EW-AI to be integrated easily into many different EW-DOS clients,
 
-    2. EWAI Data Mgr - Back Eend Data Model/DB (Either SQL or NoSQL, Both?, Mongo?, other?): This protoype would hand-code scheme, no UI for the DB is called for (would be possible later of course). This module would also be responsible for data aggregation, normalization, association, staging and meta-data prep to get it ready for OCEAN
+    2. EW-AI DB - Back End Data Model/DB. Suggested: NoSQL (Mongo) but could be SQL also. This protoype would hand-code scheme, no UI for the DB is called for (would be possible later of course). This module would also be responsible for data aggregation, normalization, association, staging and meta-data prep to get it ready for OCEAN
 
-    3. EWAI Data Mgr UI - (Electron React.js app): showing how it could all be used together, managed and tied to OCEAN (The UI at this time is the least defined area)
+    3. EW-AI Data Marketplace - User Interface and supporting modules which setup the EW-AI Data Marketplace. This module is much more than just a UI component, as it must setup, manage, stage and prepare EW-AI PTD data-sets for consumption in OCEAN. Suggested: a) website (angular/react.js), or b) Electron app (angular/react.js). The UI would be a prototype showing how it could all be used together, managed and tied to OCEAN. The UI for this prototype would likely be based off and/or forked from the OCEAN Commons Marketplace project. The UI module is the most open-ended in terms of definition. This module also contains the necessary components, interfaces, and logic to prepare and stage data sets with the OCEAN protocol system, and is responsible for helping EW-AI users find, group, normalize, aggregate, associate PTD data together, tie it in with external IOT-X data (extended IOT device meta data), stage the data sets for OCEAN analysis and allow application of OCEAN AI routines, compute-to-data as necessary, etc. Fully 50% (or more) of the work for this entire project will be involved in this subsystem.
 
-    ((UI DIAGRAM HERE TBD?))
+    A rough guess on the amount of work divided across the 3 areas would be: 20% (API), 15% (DB), 65% (Data Marketplace)
 
-Prototype would demonstrate how data could be handled from multiple devices (e.g. Vendor, Network, Pool, Device struture and hierarchy, not fully fleshed out yet):
+![EW-AI Marketplace DIagram](https://adivate.net/doc/EWAI/EWAI-ArchDiagram-V5.jpeg)
+
+Prototype would demonstrate how data could be handled from multiple devices (e.g. multiple Vendors, Networks, Pools, etc) as shown in the device hierarchy diagram (the concept of device pools is not fully fleshed out yet though and will evolve based on feedback with IOT vendors). The IOT hierarchy needs to account for:
 
     - multiple vendors (manufacturers)
     - multiple networks (pools?)
@@ -118,7 +120,6 @@ My speciality is really data abstraction, modeling and API development. I'm not 
 Most recent: Founded, developed, managed and sold an E-Commerce business. Developed shopping cart platform based on asp.net/SQL. Our customers were dotnet developers and corporations (we developed a platform they would customize). Grew to 10,000 customers and $5M sales, mostly small-mid size businesses, but we also had bigger clients (Crocs, McDonalds, PGA Tour, Ed Hardy, ZGallerie, etc...). Had 70 employees (20 US, 50 Philippines) and 40 developers working for me at the time I sold the business in 2012. I then took a few years off to decompress and did photography (https://rjohnanderson.photography). I'm looking for my next project/startup now and blockchain solutions have my interest. Longer term: I have 30-years of experience in development, databases, E-commerce, embedded systems, real time command & control systems, communications systems. Full stack developer and manager so I can work on both front-end and back-end projects, although I prefer back-end projects which involve data management (REST API’s, etc.), analysis, retrieval, transformation and abstraction. Experienced with SQL and NoSQL and proficient in several languages and dev platforms. Have done: Development, Product Marketing, Sales, Investor Relations, CEO...so my business experience helps me to make common sense decisions when doing design and development. Typically work remote in rapid prototyping and other agile development environments.
 
 ## Development Roadmap
-
     - Total Estimated Duration: 6 months
 
 ### Milestone 1: Power Telemetry Data (PTD) Definition and REST API Spec
@@ -127,14 +128,14 @@ Most recent: Founded, developed, managed and sold an E-Commerce business. Develo
 ### Milestone 2: Database Design & Spec
     - Estimated Duration: 4 weeks
 
-### Milestone 3: Protoptype Device Integration
+### Milestone 3: EW-AI Data Mgr
     - Estimated Duration: 8 weeks
 
-### Milestone 4: Sample Marketplace UI Client
+### Milestone 4: Sample EW-AI Marketplace UI Client
     - Estimated Duration: 4 weeks
 
-### Milestone 5: Apply A Couple Real AI algos to data for demonstration
-    - Estimated Duration: 4 weeks
+### Milestone 5: Apply Actual AI algo(s) to data for demonstration 
+    - Estimated Duration: 4 weeks. (See notes below, as this is going to depend on having data worth analyzing by this time as I'm using simulated device data as input for the prior milestones. I'm hoping a partner will have an interest in providing actual datasets that might show real-world utility)
 
 # Additional Information/Notes:
 
@@ -150,7 +151,7 @@ Most recent: Founded, developed, managed and sold an E-Commerce business. Develo
 
     - Since this system crosses two completely separate projects (EW and OCEAN Projects), it might get a more complicated than can be predicted/envisioned right now at the start.
 
-    - This project will only use simulated EW-DOS devices and simulated data (i.e. we will make simulated JSON payloads for PTD). This leads me to wonder if there is an EW-DOS device simulator (maybe that is a separate dev project to do) which allows devices to be simulated, power profiles simulated, generates EWAI data streams, etc. Ultimately, we'd like to register JSON schema by device, so it could be extensible and cross-analyziable (even across different networks, devices and manufacturers)
+    - This project will only use simulated EW-DOS devices and simulated data (i.e. we will make simulated JSON payloads for PTD). This leads me to wonder if there is an EW-DOS device simulator (maybe that is a separate dev project to do) which allows devices to be simulated, power profiles simulated, generates EW-AI data streams, etc. Ultimately, we'd like to register JSON schema by device, so it could be extensible and cross-analyziable (even across different networks, devices and manufacturers)
 
     - I'd be interested in doing follow-on projects for both EW and OCEAN
 
@@ -158,12 +159,12 @@ Most recent: Founded, developed, managed and sold an E-Commerce business. Develo
 
     - Are there any specific open source platforms, projects or repositories I cannot utilize in making this?
 
-    - Is EWAI "part of" EW-DOS or is it separate. If separate, even non EW-DOS IOT devices might send data into it.
+    - Is EW-AI "part of" EW-DOS or is it separate. If separate, even non EW-DOS IOT devices might send data into it.
 
     - This project is a CONCEPTUAL PROTOTYPE (demonstrating end-to-end EW-DOS -> OCEAN connenctivity). Not included: 
 
-        * How EWAI is onboarded into EW-DO
-        * How vendors/manufacturers are onboarded/registered into EWAI
+        * How EW-AI is onboarded into EW-DO
+        * How vendors/manufacturers are onboarded/registered into EW-AI
         * How devices are fully authenticated/secured (I will integrate with ENS though obviously) and I realize full authentication will ultimately be required
         * How various JSON Data payloads are handled in multi/cross vendor analysis (JSON Schema will be required, etc.)
         * Performace tuning of this concept
