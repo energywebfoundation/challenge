@@ -20,12 +20,10 @@ The user flow will begin with the authentication login page. Once a user logs in
 [<img src="https://saahilshangle.github.io/images/microgrid_home.jpg" width="50%" length="50%"/>](https://www.youtube.com/watch?v=abb4BOO2_os)
 
 ### Architecture
-This platform will assign individual energy producers and consumers to microgrid regions where sellers and buyers are matched off-chain. We utilize blockchain to execute energy transactions and maintain a complete record of them. EW-Chain smart contracts will handle the exchange of energy rights with EWT/EAC ERC-721 tokens. However, the user experience will be largely abstracted away from the blockchain, and transactions are automated to minimize costs through a continuous process of dynamic energy pricing. A decentralized ledger provides transparent pseudonymous neighbor to neighbor energy management that significantly reduces reliance and expected costs associated with a single energy provider. A web interface will abstract low level blockchain computation, and assist the user in understanding their energy transactions on the microgrid. //@Omkar make more technical, add MERN stack, check differences in architecture when building dApp on EW Client. 
+This platform will assign individual energy producers and consumers to microgrid regions where sellers and buyers are matched off-chain. We utilize blockchain to execute energy transactions and maintain a complete record of them. EW-Chain smart contracts will handle the exchange of energy rights with EWT/EAC ERC-721 tokens. However, the user experience will be largely abstracted away from the blockchain, and transactions are automated to minimize costs through a continuous process of dynamic energy pricing. A decentralized ledger provides transparent pseudonymous neighbor to neighbor energy management that significantly reduces reliance and expected costs associated with a single energy provider. A web interface will abstract low level blockchain computation, and assist the user in understanding their energy transactions on the microgrid. The implementation of the full-stack dApp demo shown above was built using the MongoDB, Express.js, React.js, Node.js, and Solidity/Ethereum frameworks. Our front-end application was built entirely in React.
 
 <sub>Click below for a full deck</sub><br>
 [<img src="https://saahilshangle.github.io/images/dapp_flow.jpg" width="50%" length="50%"/>](https://docs.google.com/presentation/d/1NNWVx2BMPqyycyE4lmdhekEvGsu1hgPRqYgJBBLIQYQ/edit?usp=sharing)
-
-The implementation of the full-stack dApp demo shown above was built using the MongoDB, Express.js, React.js, Node.js, and Solidity/Ethereum frameworks. Our front-end application was built entire in React
 
 ## Team
 * **Members**: 
