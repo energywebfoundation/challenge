@@ -37,7 +37,7 @@ This platform will assign individual energy producers and consumers to microgrid
 We are a group of 5 UC Berkeley students part of Blockchain at Berkeley. 
   * **Omkar** is a rising senior studying EECS, former Amazon intern, former undergraduate data science researcher, and co-founder of Flipout, an angel-backed sports betting startup. He is currently an 8VC Fellow and software engineering intern at Nylas, a series B startup building unified communications APIs. 
     * Skills: 
-  * **Ratan** is a rising sophomore EECS major who loves playing basketball, organizing legal games of poker and curating Spotify playlists. Currently, Ratan is a Software Engineer Intern at Virgil Quantitative Research (VQR). 
+  * **Ratan** is a rising sophomore studying EECS, and a former Cisco software intern fascinated by the Internet of Things, Blockchain & Big Data. Currently, Ratan is a Software Engineer Intern at Virgil Quantitative Research (VQR), a quantitative cryptocurrency trading firm based out of NYC, researching the emerging Decentralized Finance (DeFi) market.
     * Skills: 
   * **Ruhi** is a rising senior, studying Computer Science & City Planning. She’s currently interning at Lyft in their autonomous vehicle/self-driving division and is interested in the intersections of software and urban design.
     * Skills: 
