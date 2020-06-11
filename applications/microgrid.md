@@ -38,7 +38,7 @@ We are a group of 5 UC Berkeley students part of Blockchain at Berkeley.
   * **Omkar** is a rising senior studying EECS, former Amazon intern, former undergraduate data science researcher, and co-founder of Flipout, an angel-backed sports betting startup. He is currently an 8VC Fellow and software engineering intern at Nylas, a series B startup building unified communications APIs. 
     * Skills: 
   * **Ratan** is a rising sophomore studying EECS, and a former Cisco software intern fascinated by the Internet of Things, Blockchain & Big Data. Currently, Ratan is a Software Engineer Intern at Virgil Quantitative Research (VQR), a quantitative cryptocurrency trading firm based out of NYC, researching the emerging Decentralized Finance (DeFi) market.
-    * Skills: Python, JavaScript, ReactJS, MongoDB, Solidity, NodeJS, Smart Contracts, Web Development, UI/UX Design, market analysis, Internet of Things technologies 
+    * Skills: Python, JavaScript, ReactJS, MongoDB, Solidity, NodeJS, Smart Contracts, Web Development, UI/UX Design, market analysis, IoT technologies 
   * **Ruhi** is a rising senior, studying Computer Science & City Planning. She’s currently interning at Lyft in their autonomous vehicle/self-driving division and is interested in the intersections of software and urban design.
     * Skills: 
   * **Saahil** is a rising junior studying Data Science & Business Administration with internship experience as a PayPal Strategy Analyst and Cisco Product Manager. He is Vice President of a student run pro bono consulting organization and enjoys working on projects that bridge social impact and technology. 
