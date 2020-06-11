@@ -29,7 +29,7 @@ We encourage students, entrepreneurs, application developers, startups, corporat
 
 The call for ideas is very open-ended. Our team is interested in reviewing any and all proposals to support Energy Web’s nonprofit mission. 
 
-Your application needs to answer the questions in the [template doc](https://github.com/energywebfoundation/challenge/blob/master/applications/example-submission.md), present your idea concisely (the total document excluding figures should be less than 5 pages in length), and outline a realistic plan of action to bring your idea to life. (Note: you do not need to actually build your idea to take part in the Innovation Challenge).
+Your application needs to answer the questions in the [template doc](https://github.com/energywebfoundation/challenge/blob/master/applications/application-template.md), present your idea concisely (the total document excluding figures should be less than 5 pages in length), and outline a realistic plan of action to bring your idea to life. (Note: you do not need to actually build your idea to take part in the Innovation Challenge).
 
 We have also identified several concepts and ideas that we believe would be of great value to the Energy Web ecosystem. We encourage interested parties to consider submitting ideas in these areas as well as their own concepts:
 
