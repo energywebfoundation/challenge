@@ -23,18 +23,13 @@ The user flow will begin with the authentication login page. Once a user logs in
 This platform will assign individual energy producers and consumers to microgrid regions where sellers and buyers are matched off-chain. We utilize blockchain to execute energy transactions and maintain a complete record of them. EW-Chain smart contracts will handle the exchange of energy rights with EWT/EAC ERC-721 tokens. However, the user experience will be largely abstracted away from the blockchain, and transactions are automated to minimize costs through a continuous process of dynamic energy pricing. A decentralized ledger provides transparent pseudonymous neighbor to neighbor energy management that significantly reduces reliance and expected costs associated with a single energy provider. A web interface will abstract low level blockchain computation, and assist the user in understanding their energy transactions on the microgrid. The implementation of the full-stack dApp demo shown above was built using the MongoDB, Express.js, React.js, Node.js, Provable, and Solidity/Ethereum frameworks. Our front-end application was built entirely in React.
 
 <sub>Click below for a full deck</sub><br>
-[<img src="https://saahilshangle.github.io/images/dapp_flow.jpg" width="50%" length="50%"/>](https://docs.google.com/presentation/d/1NNWVx2BMPqyycyE4lmdhekEvGsu1hgPRqYgJBBLIQYQ/edit?usp=sharing)
-
-<sub>PLACE A SCREENSHOT OF TECHNICAL ARCHITECTURE SLIDE HERE</sub><br>
-[<img src="https://saahilshangle.github.io/images/dapp_flow.jpg" width="50%" length="50%"/>](https://docs.google.com/presentation/d/1NNWVx2BMPqyycyE4lmdhekEvGsu1hgPRqYgJBBLIQYQ/edit?usp=sharing)
+[<img src="https://saahilshangle.github.io/images/dapp_flow.jpg" width="45%" length="45%"/>](https://docs.google.com/presentation/d/1NNWVx2BMPqyycyE4lmdhekEvGsu1hgPRqYgJBBLIQYQ/edit?usp=sharing) [<img src="https://saahilshangle.github.io/images/tech_architecture.jpg" width="45%" length="45%"/>](https://docs.google.com/presentation/d/1NNWVx2BMPqyycyE4lmdhekEvGsu1hgPRqYgJBBLIQYQ/edit?usp=sharing)
 
 ### Smart Contract
-For our application beta, we implemented a basic set of security features using the Provable API. 
+For our beta application, we implemented a basic set of security features using the Provable API. 
 
-<sub>PLACE A SCREENSHOT OF SMART CONTRACT SLIDE HERE</sub><br>
-[<img src="https://saahilshangle.github.io/images/dapp_flow.jpg" width="50%" length="50%"/>](https://docs.google.com/presentation/d/1NNWVx2BMPqyycyE4lmdhekEvGsu1hgPRqYgJBBLIQYQ/edit?usp=sharing)
-
-Note: Pseudocode used for ease of explanation
+[<img src="https://saahilshangle.github.io/images/smart_contract.jpg" width="65%" length="65%"/>](https://docs.google.com/presentation/d/1NNWVx2BMPqyycyE4lmdhekEvGsu1hgPRqYgJBBLIQYQ/edit?usp=sharing)
+<sub>Note: Pseudocode used for ease of explanation</sub>
 
 ## Team
 * **Members**: 
@@ -66,7 +61,7 @@ We are a group of 5 UC Berkeley students part of Blockchain at Berkeley.
 
 ## Development Roadmap
 * Total Estimated Duration: 14 weeks
-  * Limited PoC already complete
+  * Basic PoC already complete
 
 ### Milestone 1: Rinkeby -> Volta Testnet
 * Estimated Duration: 4 weeks
@@ -83,10 +78,10 @@ We are a group of 5 UC Berkeley students part of Blockchain at Berkeley.
 # Additional Information
 We already developed a [PoC dApp](https://github.com/saahilshangle/microgrid-blockchain) for P2P energy sharing on an ethereum test net over the course of the past 4 months. In mid-May we had the opportunity to [present](https://docs.google.com/presentation/d/1NNWVx2BMPqyycyE4lmdhekEvGsu1hgPRqYgJBBLIQYQ/edit?usp=sharing) our work to Sam Hartnett, EWF Research & Market Development Manager, who encouraged us to apply. Our team is enthusiastic about the sector and this project, and believe that the EW-DOS infrastructure would the ideal backbone for our platform. While EWF has made great progress globally already, we are particularly interested in penetrating the U.S. energy market and navigating the regulations and existing monopoly set up. 
 
-Some next steps for our team include:
-* MicroGrid API: Code refactoring into a more Service Oriented Architecture (SOA), so as to ease the implementation of simplified APIs to expose grid congestion data, core metrics, audit information etc.
-* Audit Dashboard: In order for grid/infrastructure owners such as PG&E to effectively audit our blockchain's record and prevent against double-charging MicroGrid users, their staff will need user-friendly dashboards to monitor all financial transactions across our network.
-* Sensor Integration: Building and/or purchasing the hardware and sensors needed to accurately meter the electricity flow in and out of households/batteries, and writing the necessary IoT scripts to communicate seamlessly with our smart contract.
-* Automation: Lifting the burden of daily/weekly energy trading off the shoulders of users by automating matching buyers/vendors and executing transactions according to configurable trading agents.
-* Simulation: Designing the user/grid simulations needed to model grid congestion, user activity, time, etc. in order to stress test our software and its capabilities before releasing to production.
-* Tokenization: Migrating to EWT as a store of value.
+Some key improvements from our PoC include:
+* **MicroGrid API**: Code refactoring into a more Service Oriented Architecture (SOA), so as to ease the implementation of simplified APIs to expose grid congestion data, core metrics, audit information etc.
+* **Audit Dashboard**: In order for grid/infrastructure owners such as PG&E to effectively audit our blockchain's record and prevent against double-charging MicroGrid users, their staff will need user-friendly dashboards to monitor all financial transactions across our network.
+* **Sensor Integration**: Building and/or purchasing the hardware and sensors needed to accurately meter the electricity flow in and out of households/batteries, and writing the necessary IoT scripts to communicate seamlessly with our smart contract.
+* **Automation**: Lifting the burden of daily/weekly energy trading off the shoulders of users by automating matching buyers/vendors and executing transactions according to configurable trading agents.
+* **Simulation**: Designing the user/grid simulations needed to model grid congestion, user activity, time, etc. in order to stress test our software and its capabilities before releasing to production.
+* **Tokenization**: Migrating to EWT as a store of value.
