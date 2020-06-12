@@ -40,7 +40,9 @@ We are a group of 5 UC Berkeley students part of Blockchain at Berkeley.
     * Languages: Python, Golang, Java, Javascript, Solidity, SQL
     * Tools/Frameworks: React, MongoDB, Express, Spring, Firebase, Docker, AWS, Kubernetes, Spark, Tableau, Truffle
   * **Ratan** is a rising sophomore studying EECS, and a former Cisco software intern fascinated by the Internet of Things, Blockchain & Big Data. Currently, Ratan is a Software Engineer Intern at Virgil Quantitative Research (VQR), a quantitative cryptocurrency trading firm based out of NYC, researching the emerging Decentralized Finance (DeFi) market.
-    * Skills: Python, JavaScript, ReactJS, MongoDB, Solidity, NodeJS, Smart Contracts, Web Development, UI/UX Design, market analysis, IoT technologies
+    * Skills: Smart Contracts, Full-Stack Web Development, UI/UX Design, IoT technologies, Data Visualization, DeFi
+    * Languages: Python, JavaScript, MongoDB, Solidity, HTML5/CSS, SQL, R
+    * Libraries/Frameworks: NumPy, Pandas, Express, React, Node.js, Firebase, Docker, AWS
   * **Ruhi** is a rising senior, studying Computer Science & City Planning. She’s currently interning at Lyft in their autonomous vehicle/self-driving division and is interested in the intersections of software and urban design.
     * Skills: Product design, full-stack development, urban technical use cases, Figma, Illustrator, blockchain startup freelancer
     * Languages/Tools/Frameworks: Solidity, Web3, MongoDB, Node.js, Express, React
