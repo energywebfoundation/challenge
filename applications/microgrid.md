@@ -28,7 +28,7 @@ This platform will assign individual energy producers and consumers to microgrid
 ### Smart Contract
 For our beta application, we implemented a basic set of security features using the Provable API. 
 
-[<img src="https://saahilshangle.github.io/images/smart_contract.jpg" width="65%" length="65%"/>](https://docs.google.com/presentation/d/1NNWVx2BMPqyycyE4lmdhekEvGsu1hgPRqYgJBBLIQYQ/edit?usp=sharing)
+[<img src="https://saahilshangle.github.io/images/smart_contract.jpg" width="65%" length="65%"/>](https://docs.google.com/presentation/d/1NNWVx2BMPqyycyE4lmdhekEvGsu1hgPRqYgJBBLIQYQ/edit?usp=sharing)<br>
 <sub>Note: Pseudocode used for ease of explanation</sub>
 
 ## Team
