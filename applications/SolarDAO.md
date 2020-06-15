@@ -1,3 +1,4 @@
+![SolarDAO](https://github.com/adradr/challenge/blob/master/applications/SolarDAO%20header.png "SolarDAO")
 # Energy Web Innovation Challenge Proposal
 * **Project Name**: SolarDAO
 * **Project Proposer GitHub**: https://github.com/adradr
