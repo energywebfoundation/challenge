@@ -39,3 +39,5 @@ Our team consists of a designer and a technologist. Adrian has experience in sol
 
 # Additional Information
 Please take a look at our presentation and onepager attached.
+[presentation](https://github.com/adradr/challenge/blob/master/applications/Solar%20DAO%20Pitch.pdf)
+[onepager](https://github.com/adradr/challenge/blob/master/applications/SolarDAO%20One%20pager.pdf)
