@@ -18,7 +18,7 @@
 ## Introduction
 To celebrate the one-year anniversary of the [Energy Web Chain’s launch](https://medium.com/energy-web-insights/energy-web-foundation-launches-worlds-first-public-open-source-enterprise-grade-blockchain-3a67fc457341), Energy Web is proud to announce an open call for innovative ideas to support our nonprofit mission to decarbonize the global energy sector via open-source, digital, decentralized technologies. Our ambition is bold—[10 gigatons of additional decarbonization](https://medium.com/energy-web-insights/digitalization-means-decarbonization-4e4b1af21d63)—and we can’t do it alone.
 
-Through 19 June 2020, interested organizations are invited to submit proposals on their ideas. To be considered, proposals must describe **what** you intend to build, **how** it accelerates Energy Web’s mission, and a **high-level plan** to deliver on the idea.
+Through 26 June 2020, interested organizations are invited to submit proposals on their ideas. To be considered, proposals must describe **what** you intend to build, **how** it accelerates Energy Web’s mission, and a **high-level plan** to deliver on the idea.
 
 The ideas should be built upon our established [Energy Web Decentralized Operating System](https://www.energyweb.org/technology/ew-dos/) (EW-DOS). EW-DOS leverages the [Energy Web Chain](https://www.energyweb.org/technology/energy-web-chain/) and allows for new energy applications to go live and create tangible impact.
 
