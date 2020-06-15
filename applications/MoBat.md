@@ -1,7 +1,7 @@
 # Energy Web Innovation Challenge Proposal
 * **Project Name**: Example Project Name
 * **Project Proposer GitHub**: [https://github.com/ekapassa/ew-challenge](https://github.com/ekapassa/ew-challenge)
-* **Energy Web Chain Payment Address**: 0xe61D7Ea53Dc18595367F881ceA1f74C8A13C7675
+* **Energy Web Chain Payment Address**: 0x603a576235b75FdEcb49962a9516FdeDe09B7af5
 
 ## Project Description
 
