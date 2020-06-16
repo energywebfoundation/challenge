@@ -5,7 +5,7 @@
 
 ## Project Description
 
-![EW-AI Marketplace Diagram](https://adivate.net/doc/ewai/header.jpeg)
+![EW-AI Header](https://adivate.net/doc/ewai/header2.jpg)
 
 BUILD AN EW-TO-OCEAN BRIDGE ENABLING POWER ANALYTICS AND INTELLIGENCE (A.I. LEARNING) FOR EW-DOS ENABLED IOT DEVICES - ENERGY ANALYTICS & LEARNING
 
