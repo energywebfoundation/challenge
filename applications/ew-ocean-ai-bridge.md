@@ -114,7 +114,7 @@ By exposing energy and power consumption data sets to the OCEAN marketplaces, we
 
 3. PROPOSED ARCHITECTURE & DELIVERABLES:
 
-    1. EW-AI API - Thin client REST API. Suggested: implementation in Golang (but could also be typescript/node.js), JSON, Swagger Doc, etc. Ultimately, we'd have to optimize this for millions of TPS, probably using traditional cloud based architecture deployment. This would enable EW-AI to be integrated easily into many different EW-DOS clients. It should be noted that this same API could also be used to import legacy PTD data into this system, it is not limited to be called from new/active devices. This would allow a vast set of existing power consumption data to be imported and achieve the benefits of being setpu for OCEAN AI analysis.
+    1. EW-AI API - Thin client REST API. Suggested: implementation in Golang (but could also be typescript/node.js), JSON, Swagger Doc, etc. Ultimately, we'd have to optimize this for millions of TPS, probably using traditional cloud based architecture deployment. This would enable EW-AI to be integrated easily into many different EW-DOS clients. One huge benefit of this architecture is that it would allow legacy power data to be imported into the ocean subsystem/marketplace by using this same API, as well as for the new IOT EW-DOS devices. This would allow a vast set of existing power consumption data to be imported and achieve the benefits of being setup for OCEAN AI analysis and learning.
 
     2. EW-AI DB - Back End Data Model/DB. Suggested: Mongo (but could be SQL if needed). This protoype would hand-code schema scripts, no UI for the DB is called for in this challenge project. (it would be possible to add that later of course).
 
