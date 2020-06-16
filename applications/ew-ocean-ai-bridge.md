@@ -3,7 +3,9 @@
 * **Project Proposer GitHub**: https://github.com/Rjrunner44/challenge.git
 * **Energy Web Chain Payment Address**: 0x882001eb216Dc32435aB7202ac09EcdC053f3376
 
-## Project Description (DRAFT NOT FINISHED YET!!)
+## Project Description
+
+![EW-AI Marketplace Diagram](https://adivate.net/doc/ewai/header.jpeg)
 
 BUILD AN EW-TO-OCEAN BRIDGE ENABLING POWER ANALYTICS AND INTELLIGENCE (A.I. LEARNING) FOR EW-DOS ENABLED IOT DEVICES - ENERGY ANALYTICS & LEARNING
 
