@@ -136,7 +136,7 @@ Within the MoBat network EVs can be considered as a mobile energy storage, due t
 # Additional Information
 
 ## Proposed Gantt Chart
-<img src="https://github.com/ekapassa/ew-challenge/blob/master/src/MoBat_src/gantt.png" width="70%"/>
+<img src="https://github.com/ekapassa/ew-challenge/blob/master/src/MoBat_src/gantt.png"/>
 
 ## Available Hardware
 * e-scooter: 
