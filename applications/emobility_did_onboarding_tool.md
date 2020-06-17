@@ -41,7 +41,7 @@ With this innovation project we will deliver a first version of such a testing t
         * 3 years experience in developing software solutions in the e-mobility space for leading companies like innogy eMobility Solutions, Volkswagen, EVBox, etc.
         * One of the important experts europe-wide for the OCPI protocol and its implementation
         * Lead Developer of the open source Open Charging Network
-        * Skill set: OCPI, Ethereum, Solidity, TypeScript/JavaScript/Node.JS, Kotlin.
+        * Skill set: OCPI, Ethereum, Solidity, TypeScript/JavaScript/Node.JS, Kotlin
         * Responsible for software development in the team
     * Christopher Burgahn: https://www.linkedin.com/in/christopherburgahn/
         * 10 years experience in founding companies in various sectors
@@ -56,7 +56,7 @@ With this innovation project we will deliver a first version of such a testing t
 ### Technical Architecture
 
 * Estimated Duration: 1 week
-* Aim: Document outlining the technical architecture of the testing tool that follows the beforehand identified requirements
+* Aim: Document outlining the technical architecture of the testing tool that follows the already-identified requirements
 
 ### Pilot Version 
 * Estimated Duration: 3 weeks
