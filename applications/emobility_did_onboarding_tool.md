@@ -1,7 +1,7 @@
 # Energy Web Innovation Challenge Proposal
 * **Project Name**: E-Mobility DID onboarding tool 
 * **Project Proposer GitHub**: https://github.com/adamstaveley
-* **Energy Web Chain Payment Address**: 
+* **Energy Web Chain Payment Address**: `0x579de91c99223a2C74eB96908CBeFB216c39395e`
 
 ## Project Description
 
