@@ -27,9 +27,11 @@ In this project we will build an “E-Mobility DID onboarding tool” that helps
 
 By using this tool, onboarding of new operators and their assets can be accelerated, therefore helping to unlock those assets for further blockchain use-cases like green energy certification (EW Origin) and smart charging for grid stability (EW Flex). These in particular require robust API connections to function properly, our tool therefore provides the necessary foundation work to bring the operators of electric vehicles and charging points to the Energy Web Chain.
 
-### Project
+### Project & Outlook
 
 With this innovation project we will deliver a first version of such a testing tool to showcase the value proposition to first customers and to confirm technical feasibility. We’re in the process of onboarding a first customer to run a pilot project in August. 
+
+After the value proposition and the technical feasibility is confirmed, we will look into how to implement a commercial model which serves the EV charging community best. To ensure the high quality of assets on the Open Charging Network and the Energy Web Chain DID we are convinced that community-driven quality assurance is needed, instead of having one centralized gateway. To enable this, we will provide the E-Mobility DID Onboarding Tool to operators of the Open Charging Network, which can be compared with blockchain node operators. These OCN Node Operators provide the service to onboard assets of CPOs and eMSPs to the Open Charging Network and the Energy Web DID. By using the E-Mobility DID Onboarding Tool they would additionally ensure the quality of those assets (“decentralized quality assurance”) which improves the overall network quality and opens up additional revenue streams for OCN Node Operators.
 
 
 ## Team
