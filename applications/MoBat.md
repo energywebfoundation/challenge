@@ -136,7 +136,7 @@ Within the MoBat network EVs can be considered as a mobile energy storage, due t
 # Additional Information
 
 ## Proposed Gantt Chart
-<img src="https://github.com/ekapassa/ew-challenge/blob/master/src/MoBat_src/gantt.png"/>
+<img src="https://github.com/ekapassa/ew-challenge/blob/master/src/MoBat_src/gantt.png" />
 
 ## Available Hardware
 * e-scooter: 
@@ -149,7 +149,7 @@ Within the MoBat network EVs can be considered as a mobile energy storage, due t
     * Cylindrical cells 21700
     * Digital Twin
 
-<img src="https://github.com/ekapassa/ew-challenge/blob/master/src/MoBat_src/hardware.png" width="70%"/>
+<img src="https://github.com/ekapassa/ew-challenge/blob/master/src/MoBat_src/hardware.png" width="50%"/>
 
 # References
 1.  Yigitcanlar, Tan, and Md Kamruzzaman. "Smart cities and mobility: does the smartness of Australian cities lead to sustainable commuting patterns?" Journal of urban technology 26.2 (2019): 21-46.
