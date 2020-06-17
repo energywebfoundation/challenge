@@ -25,13 +25,13 @@ The MoBat proposal, aims to deliver a Proof-of-Concept (PoC) for enabling a smar
 
 As depicted in Figure 1, mobile e-scooter batteries are plugged and un-plugged between e-scooters and wall-mounted points, to enable charging anywhere and anytime. Due to the light-weight design of the portable battery, the e-scooter drivers can take the battery with them, and plug it in any wall-mounted point – which is part of the MoBat ecosystem (to be developed on EW-Chain nodes). The exchange of energy is enabled by the P2P network in a smart way, incentivizing users to earn Energy Web Tokens (EWT). Each e-scooter is registered on the EW chain, holding a wallet with EWT. One wallet for the driver interacting with its mobile application and one representing the e-scooter itself. Due to the plug-n-play nature of the battery, the energy exchange supports all possible transactions, including energy transfer from the battery to local buildings (and vice versa) as well as from the local building towards the smart grid (and vice versa). Each portable battery is able to support energy services, using EWT executing all the associated smart contracts for supporting energy selling, energy savings, local demand response, EV charging, etc. Moreover, AI agents will be incorporated, to allow smart contracts, on top of the MoBat network, to automatically detect other batteries with similar characteristics, in nearby geographical places, and propose potential energy transactions. Additionally, the blockchain enabled smart contracts would take advantage of AI and IoT capabilities, in order to transform the portable battery into an ad-hoc Virtual Storage Plant (VSP) while automatically interact with the energy market (i.e., the creation of a marketplace). Specifically, the portable e-scooter battery will be charged during off-peak periods (e.g., at night when the e-scooter is idle), pay off-grid electricity rates with EWT and then use the stored energy during peak periods. The above-mentioned AI-agents will constantly monitor the e-scooter’s driver behaviour in order to provide personalized charging profiles towards the dedicated smart contract and execute the most suitable policies. In this way, every battery can learn, adapt, sense and interact with the smart grid, by adapting the smart contract functionalities.
 
-<img src="https://github.com/ekapassa/ew-challenge/blob/master/src/MoBat_src/mobat_concept.png"/>
+<img src="https://github.com/ekapassa/ew-challenge/blob/master/src/MoBat_src/mobat_concept.png" width="70%"/>
 
 
 ### Use Case Scenario
 MoBat aims to enable the set-up and operation of a smart connected mobility network, a holistic offering covering: (i) the portable e-scooter battery, (ii) a smart contract enabled, blockchain network, through EW-Chain, and (iii) an AI module for enabling efficient and effective charging profiles; personalized to each e-scooter driver. Figure 2 illustrates a high-level view of a potential use case scenario for the MoBat network and ecosystem. The e-scooter driver moves around a (smart) city and plugs-in the portable battery to any place or building. The battery, interacts with the established smart contracts to [establish the charging process] using the underlined blockchain network, taking decisions triggered by AI agents. According to personalized needs, when the battery is charged, or when the user wants to abort, the e-scooter ends the energy transfer, and as a reward it earns EWTs.
 
-<img src="https://github.com/ekapassa/ew-challenge/blob/master/src/MoBat_src/mobat_scenario.png"/>
+<img src="https://github.com/ekapassa/ew-challenge/blob/master/src/MoBat_src/mobat_scenario.png" width="70%"/>
 
 This use case illustrates one possible scenario on how to make use of services related to EVs. In particular, EV profiling and V2G services that enable e-scooter drivers (i.e., prosumers) to perform direct P2P transactions, minimizing the charging costs.
 
@@ -136,7 +136,7 @@ Within the MoBat network EVs can be considered as a mobile energy storage, due t
 # Additional Information
 
 ## Proposed Gantt Chart
-<img src="https://github.com/ekapassa/ew-challenge/blob/master/src/MoBat_src/gantt.png"/>
+<img src="https://github.com/ekapassa/ew-challenge/blob/master/src/MoBat_src/gantt.png" width="70%"/>
 
 ## Available Hardware
 * e-scooter: 
@@ -149,7 +149,7 @@ Within the MoBat network EVs can be considered as a mobile energy storage, due t
     * Cylindrical cells 21700
     * Digital Twin
 
-<img src="https://github.com/ekapassa/ew-challenge/blob/master/src/MoBat_src/hardware.png"/>
+<img src="https://github.com/ekapassa/ew-challenge/blob/master/src/MoBat_src/hardware.png" width="70%"/>
 
 # References
 1.  Yigitcanlar, Tan, and Md Kamruzzaman. "Smart cities and mobility: does the smartness of Australian cities lead to sustainable commuting patterns?" Journal of urban technology 26.2 (2019): 21-46.
