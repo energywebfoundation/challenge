@@ -29,12 +29,13 @@ As depicted in Figure 1, mobile e-scooter batteries are plugged and un-plugged b
 
 
 <img src="https://github.com/ekapassa/ew-challenge/blob/master/src/MoBat_src/mobat_concept.png" width="70%"/>
-
+*Figure 1: Abstract view of the MoBat Concept*
 
 ### Use Case Scenario
 MoBat seeks to enable the set-up and operation of a smart connected mobility network, a holistic offering covering: (i) the portable e-scooter battery, (ii) a smart contract enabled blockchain network, through EWC, and (iii) an AI module for enabling efficient and effective charging profiles; personalized to each e-scooter driver. Figure 2 illustrates a high-level view of a potential use case scenario for the MoBat network and ecosystem. The e-scooter driver moves around a (smart) city and plugs-in the portable battery to any place or building. The battery, interacts with the established smart contracts to establish the charging process using the underlined blockchain network, taking decisions triggered by AI agents. According to personalized needs, when the battery is charged, or when the user wants to abort, the e-scooter ends the energy transfer, and as a reward it earns EWTs.
 
 <img src="https://github.com/ekapassa/ew-challenge/blob/master/src/MoBat_src/mobat_scenario.png" width="70%"/>
+*Figure 2: MoBat Use Case*
 
 This use case illustrates one possible scenario on how to make use of services related to EVs. In particular, EV profiling and V2G services that enable e-scooter drivers (i.e. prosumers) to perform direct P2P transactions.
 MoBat proposes a dApp and a smart contract architecture for the integration of a blockchain-boosted smart AI charging transaction, that will be implemented as a proof-of-concept to demonstrate the feasibility of this solution. E-scooters and buildings (owners) in the MoBat scenario depict a node in the blockchain (i.e. EWC) network, holding a digital wallet with EWTs. For each e-scooter, the custom smart contract triggers the charging transaction process, based on the driver's profile, selecting the best scheme (in terms of cost and energy needs) to do so. With that in mind, the following steps are followed:
@@ -137,8 +138,9 @@ The MoBat project is a direct response to Energy Web Challenge priorities as the
 
 ## Proposed Gantt Chart
 <img src="https://github.com/ekapassa/ew-challenge/blob/master/src/MoBat_src/gantt.png" />
+*Figure 3: MoBat Gantt Chart*
 
-## Available Hardware
+## Available Equipment 
 * e-scooter: 
     * Up to 5kW power 
     * 75 km/h max speed 
@@ -150,6 +152,7 @@ The MoBat project is a direct response to Energy Web Challenge priorities as the
     * Digital Twin
 
 <img src="https://github.com/ekapassa/ew-challenge/blob/master/src/MoBat_src/hardware.png" width="50%"/>
+*Figure 4: MoBat Equipment*
 
 # References
 1.  Yigitcanlar, Tan, and Md Kamruzzaman. "Smart cities and mobility: does the smartness of Australian cities lead to sustainable commuting patterns?" Journal of urban technology 26.2 (2019): 21-46.
