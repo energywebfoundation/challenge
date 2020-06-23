@@ -28,7 +28,7 @@ It is important to note that in practice there are some technical limitations to
 
 #### Problem formulation
 
-Currently Energy Web’s validator nodes, both on Volta and on Energy Web Chain use a static minimum-accepted-gasPrice setting of 1 wei (<https://github.com/energywebfoundation/ewc-validator-node-install-scripts/blob/master/ewc-affiliate/install-validator-ubuntu-server-18.04-production.sh#L498>). While this can be easily changed, it is not ideal for the following reasons:
+Currently Energy Web’s validator nodes, both on Volta and on Energy Web Chain use a static, minimum-accepted gas price setting of 1 wei (<https://github.com/energywebfoundation/ewc-validator-node-install-scripts/blob/master/ewc-affiliate/install-validator-ubuntu-server-18.04-production.sh#L498>). While this can be easily changed, it is not ideal for the following reasons:
 
 * If the setting is static and the price is set low, it is entirely possible for a malicious spammer to clog transaction pools, thus the network, if initiating enough, low fee transactions, which results in the denial of service (DoS) for others. As of now there seems to be no automated process for detecting and preventing such an event, only manual which is ineffective, and unsafe as it relies on human interaction.
 * If the setting is static but high, spamming might be prevented, but results in an inefficient gas market by artificially keeping transactions costs unjustifiably high, resulting in a waste of funds and dissatisfaction of users.
@@ -151,3 +151,13 @@ We are a team of blockchain enthusiasts who strongly believe that blockchain tec
 *Man-hour estimate*: 12
 
 **Total estimated man-hour investment**:  392 (with 25% margin of error as a first round estimate)
+
+### References
+
+* <https://github.com/energywebfoundation/ewc-validator-node-install-scripts/blob/master/ewc-affiliate/install-validator-ubuntu-server-18.04-production.sh#L498>
+* <https://ethereum.stackexchange.com/questions/33703/doubts-regarding-transactions-broadcasting-and-concept-of-tx-pool>
+* <https://ethereum.stackexchange.com/questions/18736/are-pending-transactions-dropped-and-reinstated>
+* <https://docs.ethgasstation.info/#gas-price>
+* <https://github.com/ethereum/homestead-guide/blob/master/source/contracts-and-transactions/account-types-gas-and-transactions.rst>
+* <https://www.reddit.com/r/ethereum/comments/84lgh8/what_or_who_determines_the_eth_gas_price_on_the/>
+* <https://energyweb.atlassian.net/wiki/spaces/EWF/pages/703922247/System+Architecture>
