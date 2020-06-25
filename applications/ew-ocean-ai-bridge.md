@@ -48,11 +48,21 @@ IOT-X DATA:
 
 - It should be possible in later iterations of this system to add/merge data external to the actual IOT devices themselves (IOT-X) into the system for cross-correlation and analysis. For example, add tire make and model into EV IOT PTD data in a correlated fashion. Such IOT-X data might enable learning about patterns and trends which go beyond pure PTD input data, to achieve broader learning and carbon cleansing. (e.g. the effect of specific tire brands, treads, etc. on energy consumption). This would open up the data marketplace to be of interest to many more vendors than just IOT manufacturers. In effect, IOT-X could be thought of as adding "Manufacturer Specifications" data to the PTD data to allow a broader analysis and understanding of the total system.
 
+A conceptual diagram of the marketplace architecture is shown below:
+
+![EW-AI Marketplace Diagram](https://adivate.net/doc/ewai/EWAI-Marketplace-SVM-V3.jpeg)
+
 DEVICE HIERARCHIES:
 
 I envision a hierarchy of devices. The devices would potentially identify using DID's (https://www.w3.org/TR/did-core/), but that would be optional:
 
 ![EW-AI Device Hierarchy](https://adivate.net/doc/ewai/EWAI-DeviceDiagram-V2.jpeg)
+
+Prototype would demonstrate how data could be handled from multiple devices (e.g. multiple Vendors, Networks, Pools, etc.) as shown in the device hierarchy diagram. The IOT hierarchy needs to account for:
+
+- multiple vendors (manufacturers)
+- multiple networks (pools?)
+- multiple device types
 
 EW-AI would funnel, prepare (normalize), aggregate and stage PTD for OCEAN marketplace consumption and analytics/learning. Devices would identify (optionally) via ENS and be anonymized as necessary (there would likely be different requirements for SVM and CVM). This prototype will focus only on building a SVM implementation but the real benefit of an OCEAN AI powered energy data marketplace would be realized when able to look at cross vendor patterns (and cross device, cross network, etc.) using anonymous data sets so vendors could learn from others in total system aggregate consumption analysis.
 
@@ -138,16 +148,7 @@ b) Data Manager - This module contains the necessary components, interfaces, and
 A rough guess on the amount of work divided across the 3 areas would be: 20% API, 15% DB, 65% Data Marketplace.
 
 Important: The result/deliverables of this challenge project should be considered ALPHA level software. This is a fairly ambitious project and the goal is proof of concept, not production ready software.
-
-![EW-AI Marketplace Diagram](https://adivate.net/doc/ewai/EWAI-Marketplace-SVM-V3.jpeg)
-
-Prototype would demonstrate how data could be handled from multiple devices (e.g. multiple Vendors, Networks, Pools, etc.) as shown in the device hierarchy diagram (the concept of device pools is not fully fleshed out yet though and will evolve based on feedback with IOT vendors). The IOT hierarchy needs to account for:
-
-- multiple vendors (manufacturers)
-- multiple networks (pools?)
-- multiple device types
-- one or more OCEAN algo's applied (very simple ones probably, and compute to data support)
-   
+ 
 ## Team
 * **Members**: R. John Anderson (Rob), Adivate.net (a division of Discovery Productions, Inc.)
 * **Code Repositories**: https://github.com/Rjrunner44/
