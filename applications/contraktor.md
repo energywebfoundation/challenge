@@ -37,8 +37,8 @@ An initial prototype of **Contraktor UI** was developed during the [ETH Global h
 
 This proposal is to extend on that idea and bring it to the next level on the Energy Web Chain.
 
-### Total
-Total Estimated Duration: 9-12 weeks 
+**Prototype**
+![Contraktor UI](./contraktor-example.gif)
 
 ### Milestone #1: EWC-compatible MVP 
 ~1-2 weeks - development 
@@ -50,7 +50,7 @@ Total Estimated Duration: 9-12 weeks
 ### Milestone #2: Product Management
 ~2 weeks - product management + UX 
 
-- Work with UX/designer to research and improve overall usability and product
+- Work with UX/designer to research and improve overall usability, product and experience
 - Conducting user interviews to create persona's and user journeys
 - Create mock-ups and prototypes to perform usability testing
 - Apply and translate learnings and designs into the product.
@@ -78,6 +78,8 @@ Total Estimated Duration: 9-12 weeks
 - Build in logs and monitoring to filter and track a deployed smart contract's transactions, events or state changes
 - Add notifications and webhooks that allow registered users to subscribe to these events and changes to quickly respond or further integrate with their systems.
 
+### Total
+Total Estimated Duration: 9-12 weeks 
 
 # Who
 
