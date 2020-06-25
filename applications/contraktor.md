@@ -4,7 +4,9 @@
 * **Project Proposer GitHub**: https://github.com/wslyvh/contraktor
 * **Energy Web Chain Payment Address**: 0x5ac9a43C424bf764d06242Acac446344738e2050
 
-**Contraktor** is a smart contract explorer - browse and verify smart contracts, to understand the risks and value before interacting with them.
+**Contraktor** is providing the tools to browse, verify and interact with a smart contract's resources and state without holding any tokens. Making it easy for further integration or consumption. Reducing the friction between applications built on the blockchain and developers or end-users.
+
+Faster time to network.
 
 # Why
 
