@@ -187,11 +187,11 @@ Longer term: I have 30-years of experience in development, databases, E-commerce
 
 - This project is not for trading or buying/selling of energy contracts (that's a completely different market).
 
-- I'm not a EW or OCEAN expert, so I will almost certainly need some advice/input from 1) IOT person (Vodafone maybe?), 2) EW Dev, 3) OCEAN dev. I've therefore set the schedule to be fairly conservative allowing learning time (for me). Hopefully things will go faster, but since this project encompasses two projects (EW and OCEAN Projects), it might get more complicated than can be predicted/envisioned right now at the start.
+- I'm not a EW or OCEAN expert, so I will almost certainly need some advice/input from 1) IOT person (Vodafone maybe?), 2) EW Dev, 3) OCEAN dev. I've therefore set the schedule to be fairly conservative allowing for some learning time. Hopefully things will go faster, but since this project encompasses two projects (EW and OCEAN Projects), it might also get more complicated than can be predicted/envisioned right now at the start.
 
 - I'll be using simulated device PTD data as input for the early milestone development. I'm hoping a partner will have an interest in providing actual PTD data samples that might show real-world application & utility (maybe from EV, wind, solar, hydro, geothermal, etc.). I would ideally like to get some "realistic" PTD to send into the system to model so we could demonstrate analysis and learning which is meaningful (i.e. not completely contrived just to prove concept). But at this time, I plan to use simulated EW-DOS devices and simulated PTD JSON data streams for development of the project architecture. This leads me to wonder if there is an EW-DOS device simulator (maybe that is a separate dev project to do) which allows devices to be mocked-up and simulated, power profiles simulated, which could be used to generate an EW-AI data stream.
 
-- The development of the actual AI algos themselves is beyond the scope of this challenge project. I'm hoping that interested parties may come along and see what this system enables and begin to craft AI algos once real-world data is available for analysis. It's a bit of a chicken and egg problem overall: until we have data, it's hard to craft meaningful AI algos, and until we have AI algos, we won't be able to analyze the data. So the primary goal of this project is to get IOT energy device consumption data into OCEAN, so the whole process can start.
+- Additionally, the development of the actual AI algos themselves is beyond the scope of this challenge project. I'm again hoping (like with getting real-world PTD data samples) that interested parties may come along and see what this system enables and begin to craft AI algos once real-world data is available for analysis. It's a bit of a chicken and egg problem overall: until we have data, it's hard to craft meaningful AI algos, and until we have AI algos, we won't be able to analyze the data. So the primary goal of this project is to get IOT energy device consumption data into OCEAN, so the whole process can start.
 
 - Ultimately for a full CVM implementation, we would need to register JSON schema by device, so it could be extensible and cross-analyzed (across different networks, devices and manufacturers). I'm not sure how far I can get into that in this prototype project.
 
@@ -201,16 +201,16 @@ Longer term: I have 30-years of experience in development, databases, E-commerce
 
 - Is EW-AI "part of" EW-DOS or is it separate (it might belong in the EW-DOS Utilities or Toolkit area)?
 
-- This project is a CONCEPTUAL PROTOTYPE demonstrating end-to-end EW-DOS -> OCEAN connectivity and should be considered to deliver ALPHA level software. Not included: 
+- The whole project could also be done on the dotnet core/MVC tech stack also (and it could be ported to that platform later also if desired).
 
-* How EW-AI is on-boarded into EW-DOS,
-* How vendors/manufacturers are on-boarded/registered into EW-AI,
-* How devices are fully authenticated/secured (I will integrate with ENS and DID identifiers though obviously) and I realize full authentication will ultimately be required,
-* How various JSON Data payloads are handled in a full multi/cross vendor analysis (JSON Schema will be required, etc.). This project is focusing on the Single Vendor Marketplace (SVM) for now, although the architecture should not prevent Cross Vendor Marketplaces (CVM),
-* Performance tuning and optimizations,
-* IT/Production/Operational deployments, etc. (this is alpha software)
+- This project is a conceptual prototype demonstrating end-to-end EW-DOS <--> OCEAN connectivity and should be considered to ALPHA level software. Out of scope for the challenge project therefore would be things such as: 
 
-- The whole project could also be done on the dotnet core/MVC tech stack also (andn it could be ported to that platform later also).
+a) Finalization of how vendors/manufacturers are on-boarded/registered into EW-AI,
+b) How devices are fully authenticated/secured (I will integrate with ENS and DID identifiers though obviously) and I realize full authentication will ultimately be required,
+c) CVM implementation (there are many privacy and access considerations in a multi-tenated system). I'm setting the project up for SVM, but will develop with the ultimate CVM goal in mind however, and try to incorporate anything practical to facilitate later expansion for supporting CVM,
+d) Performance tuning and optimizations,
+e) IT/Production/Operational deployments, etc.
+
 
 
 
