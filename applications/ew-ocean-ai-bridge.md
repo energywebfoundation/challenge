@@ -11,42 +11,46 @@ BUILD AN EW-TO-OCEAN BRIDGE ENABLING A POWER ANALYTICS AND INTELLIGENCE MARKETPL
 
 1. OVERVIEW
 
-Imagine being able to do analysis and learning across clean energy and renewables devices, networks and industries, for example, by analyzing and learning from energy consumption and usage patterns across wind, solar, EV, hydro and geothermal networks by being able to apply AI learning to consumption patterns to improve overall grid IOT device efficiencies.  The application of AI techniques can potentially expose previously unseen patterns resulting in efficiency recommendations and improvements across clean energy and renewables networks.
+Imagine being able to do analysis and learning across clean energy and renewables devices, networks and industries, for example, by analyzing and learning from energy consumption and usage patterns across wind, solar, EV, hydro and geothermal networks by being able to apply AI learning to consumption patterns to improve overall grid and IOT device efficiencies.  The application of AI techniques can potentially expose heretofore unknown energy consumption patterns across clean energy and renewables networks resulting in efficiency recommendations and improvements.
 
-This challenge project would create a conceptual prototype system for an EW to OCEAN API Bridge and subsystem (EW-AI) which enables the creation of OCEAN IOT Energy Data Marketplace(s) fed by millions/billions of EW-DOS enabled devices. The EW-DOS devices send Power Telemetry Data (PDT) about usage and consumption to the marketplace(s). OCEAN's data marketplaces would be an ideal way to apply AI learning to improve the energy efficiency of IOT devices and networks by studying patterns visible from their real-world consumption data. Applying OCEAN AI analysis would also allow algos to be developed and applied to energy data which may look for and spot unusual and heretofore unknown consumption patterns, and even potentially start automatically addressing their causes through learning techniques.
+This challenge project would create a conceptual prototype for an EW to OCEAN API Bridge and subsystem (EW-AI) which enables the creation of OCEAN IOT Energy Data Marketplace(s) fed by millions/billions of EW-DOS enabled devices. The EW-DOS devices send Power Telemetry Data (PDT) about usage and consumption to the marketplace(s). OCEAN's data marketplaces would be an ideal way to apply AI learning to improve the energy efficiency of IOT devices and networks by studying patterns visible from their real-world consumption data. Applying OCEAN AI analysis would also allow algos to be developed and applied to energy data which may look for and spot unusual and heretofore unknown consumption patterns, and even potentially start automatically addressing their causes through learning techniques.
 
-Project Premises and Overall Goal:
+Project idea genesis came from seeing the EW and Vodafone partnership, which led me to think more about energy IOT. I then thought there needs to be a way for all EW-DOS enabled IOT devices to feed "power and energy consumption data" into OCEAN for AI analysis, learning and refinement (feedback loop). This would thereby enable marketplaces, public and private, in OCEAN for IOT energy data. Furthermore, after watching Chernobyl recently (really well done!), anything I can do to help clean energy projects and renewables get smarter and more efficient is something I would find good and worth doing. This explains the interest in connecting EWT and OCEAN. 
+
+PROJECT PREMISE:
 
 1) To improve the efficiency of IOT energy devices and networks, we need to learn from them by collecting and analyzing real-world consumption data analysis and apply AI techniques and algos,
 2) To learn, we need to see patterns,
 3) To get patterns, we need to have data,
-4) To get data, we need EW-DOS IOT devices to send their Power Telemetry Data (PTD). Note that PTD (Power Telemetry Data) is a very open-ended concept. It could encompass many different JSON data payloads/datasets with information about the device's power metrics, usage and consumption data, event related data, etc. Important: This system would not be limited to only new device data sets, as it also would allow legacy PTD data importing (see EW-API further below).
+4) To get data, we need EW-DOS IOT devices to send their Power Telemetry Data (PTD). Note that PTD is a very open-ended concept. It could encompass many different data payloads/datasets with information about the device's power metrics, usage and consumption data, event related data, etc.
+
+Importantly, the architecture being proposed is NOT limited to only capture new device data sets. It would also allow the importing of legacy energy consumption data sets (see EW-API further below).
 
 ![EW-AI Architecture Diagram](https://adivate.net/doc/ewai/EWAI-ArchDiagram-V5.jpeg)
 
 This project would develop an end-to-end prototype system (Data Model, API, DB, UI) showing how EW-DOS enabled IOT devices could be aggregated to create energy OCEAN marketplace(s). It would demonstrate:
 
-- Enabling analytics and learning from energy data consumption and usage data.
+- Enabling analytics and learning from IOT energy data consumption and device usage data.
+- Setup an architecture which enables getting energy device data platformed, setup and staged for OCEAN analysis (making it available) for "energy & power analytics" (and learning) to be possible.
 - Enabling AI Learning from Power Metrics and Consumption in Feedback Loop to IOT Developers & Manufacturers.
-- Eventually the AI connection should result in specific recommendations based on analytics about suggestions that could be made to improve the power grid (of the IOT devices).
-- For this conceptual proof of concept project, simply getting energy device data platformed and setup and staged for OCEAN analysis (making it available) for "energy & power analytics" (and learning) to be possible is the primary goal.
-- EW-AI could be positioned into the new EW-DOS toolkit layer 
+
+ENERGY DATA MARKETPLACES:
 
 The system envisioned could enable two types of energy IOT data marketplaces, both private and public (a vendor could be a device manufacturer, a network, etc.):
 
-> Private Single Vendor Marketplace (SVM): IOT devices publish their data (anon or not) for the benefit of that single manufacturer (e.g. Vendor X and their partners). The data from a single vendor's devices would be aggregated, normalized and used for pattern development and learning. In this type of marketplace, the data and benefits of learning and pattern recognition would only be available to Vendor X.
+> Single Vendor Marketplace (SVM): IOT devices publish their data (anon or not) for the private benefit of that single manufacturer (e.g. Vendor X and their partners). The data from a single vendor's devices would be aggregated, normalized and used for pattern development and learning. In this type of marketplace, the data and benefits of learning and pattern recognition would only be available to Vendor X.
     
-> Public Cross-Vendor Marketplace (CVM): IOT devices publish their data (anonymously) for the benefit of all to analyze and learn from. The Data from multiple vendors, networks and devices could be aggregated, normalized, and cross-analyzed for pattern development and learning. In this case, for example, data from Vendor X cars, Vendor Y smart meters, and Vendor Z solar panel IOT devices could be made available for CROSS NETWORK pattern analysis. To my knowledge, this type of cross network analysis and learning has never been possible before. As an example, maybe Vendor A wind turbine data could be cross analyzed with Vendor B solar data. The benefits of learning and pattern recognition would be available to all vendors who contributed the data. This in effect is a multi-tenant OCEAN energy data marketplace.
+> Cross-Vendor Marketplace (CVM): IOT devices publish their data (anonymously) for the public benefit of all to analyze and learn from. The Data from multiple vendors, networks and devices could be aggregated, normalized, and cross-analyzed for pattern development and learning. In this case, for example, data from Vendor X cars, Vendor Y smart meters, and Vendor Z solar panel IOT devices could be made available for CROSS NETWORK pattern analysis. To my knowledge, this type of cross network analysis and learning has never been possible before. As an example, maybe Vendor A wind turbine data could be cross analyzed with Vendor B solar data. The benefits of learning and pattern recognition would be available to all vendors who contributed the data. This in effect is a multi-tenant OCEAN energy data marketplace.
 
 EW-AI would funnel, prepare (normalize), aggregate and stage PTD for OCEAN marketplace consumption and analytics/learning. Devices would identify (optionally) via ENS and be anonymized as necessary (there would likely be different requirements for SVM and CVM). This prototype will focus only on building a SVM implementation but the real benefit of an OCEAN AI powered energy data marketplace would be realized when able to look at cross vendor patterns (and cross device, cross network, etc.) using anonymous data sets so vendors could learn from others in total system aggregate consumption analysis.
 
 In CVM (the long term ultimate holy grail goal), we may discover heretofore unknown (and unpredictable) patterns in energy consumption, usage, waste and optimization by analyzing and learning from data across multiple energy devices and networks (e.g. wind, EV, solar, hydro, geothermal etc.). For example, we might learn that when Vendor A device X limits power to P, then Vendor B device Y actually increases its power consumption by 1.1*P, actually offsetting (and more) total grid energy savings to produce net energy waste. In a wildly fictional example, we might learn that when consumers are encouraged to set their home thermostat smart meters to allow a max temp Y when the ambient temperature is >Z, those same consumers actually drive their EV cars to the beach to cool off in such a way that offsets any power savings achieved by limiting the thermostats (i.e., net energy waste, not gain). This type of analysis is only possible when you can access and analyze IOT energy device data across multiple vendors and networks (in this case home thermostat IOT, EV Car IOT, Phone IOT with location data). Of course, cross vendor cooperation and agreement would be required in order to achieve this goal, perhaps even spanning political and national boundaries.
 
-IOT-X Data
+IOT-X DATA:
 
 - It should be possible in later iterations of this system to add/merge data external to the actual IOT devices themselves (IOT-X) into the system for cross-correlation and analysis. For example, add tire make and model into EV IOT PTD data in a correlated fashion. Such IOT-X data might enable learning about patterns and trends which go beyond pure PTD input data, to achieve broader learning and carbon cleansing. (e.g. the effect of specific tire brands, treads, etc. on energy consumption). This would open up the data marketplace to be of interest to many more vendors than just IOT manufacturers. In effect, IOT-X could be thought of as adding "Manufacturer Specifications" data to the PTD data to allow a broader analysis and understanding of the total system.
 
-DEVICE HIERARCHIES
+DEVICE HIERARCHIES:
 
 I envision a hierarchy of devices. The devices would potentially identify using DID's (https://www.w3.org/TR/did-core/), but that would be optional:
 
@@ -84,7 +88,7 @@ The EW-AI API would handle multiple device and notification types (event, report
         }
     }
 
-FLOW
+CONCEPTUAL FLOW:
 
 The (rough) general system flow would be as follows in a simplistic form for a SVM marketplace:
 
@@ -179,8 +183,6 @@ Longer term: I have 30-years of experience in development, databases, E-commerce
 - Estimated Duration: 4 weeks. See notes below, as this milestone is going to depend on having data worth analyzing (see notes below)
 
 # Additional Information/Notes:
-
-- Project idea genesis came from seeing EW and Vodafone partnership, which led  me to think more about energy IOT. I then thought there must be a way for all the EW-DOS enabled IOT device "power and energy data" to feed into OCEAN for AI consumption, learning and refinement of EW tech (feedback loop). This might also enable marketplaces, public and private in OCEAN for Energy Data for IOT. Furthermore, after watching Chernobyl recently (really well done!), anything I can do to help clean energy projects and renewables get smarter is something I would find good and worth doing. I tend to only work on projects I am interested in and believe in and have passion about, and hence, this is why I’m interested in connecting EWT and OCEAN. 
 
 - This project is not for trading or buying/selling of energy contracts (that's a completely different market).
 
