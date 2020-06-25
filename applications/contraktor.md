@@ -65,11 +65,11 @@ This proposal is to extend on that idea and bring it to the next level on the En
 *Need community feedback to prioritse integrations. Could be opened up for other developers to help build on top of this. 
 
 ### Milestone #4: Integrations
-~2 weeks - development 
+~2-3 weeks - development 
 
 - CLI plugins (truffle & builder) that automatically upload verified contract's source with their deployed instances
-- Create an API gateway that allow for easy integration with tradition IT and enterprise system through OpenAPI & GraphQL endpoints
-- Abstracting away the complexities of interacting with blockchain, such as nonce, key and account management to reduce friction.
+- Create an API gateway that allow for easy consumption and integration with traditional IT and enterprise systems through OpenAPI & GraphQL endpoints
+- Abstracting away the complexities of interacting with blockchain, such as nonce, gas, key and account management to reduce friction. 
 
 ### Milestone #5: Personal dashboards
 ~2-3 weeks - development 
@@ -79,7 +79,7 @@ This proposal is to extend on that idea and bring it to the next level on the En
 - Add notifications and webhooks that allow registered users to subscribe to these events and changes to quickly respond or further integrate with their systems.
 
 ### Total
-Total Estimated Duration: 9-12 weeks 
+Total Estimated Duration: 9-13 weeks 
 
 # Who
 
