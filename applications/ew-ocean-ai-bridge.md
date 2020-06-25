@@ -24,13 +24,13 @@ PROJECT PREMISE:
 3) To get patterns, we need to have data,
 4) To get data, we need EW-DOS IOT devices to send their Power Telemetry Data (PTD). Note that PTD is a very open-ended concept. It could encompass many different data payloads/datasets with information about the device's power metrics, usage and consumption data, event related data, etc.
 
-Importantly, the architecture being proposed is NOT limited to only capture new device data sets. It would also allow the importing of legacy energy consumption data sets (see EW-API further below) into OCEAN.
-
 This project would develop an end-to-end conceptual prototype (Data Model, API, DB, UI) showing how EW-DOS enabled IOT devices could be aggregated to create energy OCEAN marketplace(s). It would demonstrate:
 
 - Enabling analytics and learning from IOT energy data consumption and device usage data.
 - Setup an architecture which enables getting energy device data platformed, setup and staged for OCEAN analysis (making it available) for "energy & power analytics" (and learning) to be possible.
 - Enabling AI Learning from Power Metrics and Consumption in Feedback Loop to IOT Developers & Manufacturers (see notes on AI algos)
+
+Importantly, the architecture being proposed is NOT limited to only capture new device data sets. It would also allow the importing of legacy energy consumption data sets (see EW-API further below) into OCEAN.
 
 ![EW-AI Architecture Diagram](https://adivate.net/doc/ewai/EWAI-ArchDiagram-V5.jpeg)
 
@@ -94,20 +94,20 @@ The (rough) general system flow would be as follows in a simplistic form for a S
 
 - DATA PRODUCERS (Vendors, i.e. device manufacturers):
 
-* Register their company with EW-AI Marketplace (via ENS)
-* Register their device types (via ENS)
-* Setup pool(s) of devices (optional, pools might allow for different trials on the same device, via ENS again)
-* Register their device specs (This really is what the IOT-X data pool is for, so the device/manufacturer specs aren't replicated a million times)
-* Integrate EW-AI with EW-DOS, so devices can send their PTD data into EW-AI
-* Define who can access their data, costs in OCEAN, privacy level settings, etc.
+a) Register their company with EW-AI Marketplace (via ENS)
+b) Register their device types (via ENS)
+c) Setup pool(s) of devices (optional, pools might allow for different trials on the same device, via ENS again)
+d) Register their device specs (This really is what the IOT-X data pool is for, so the device/manufacturer specs aren't replicated a million times)
+e) Integrate EW-AI with EW-DOS, so devices can send their PTD data into EW-AI
+f) Define who can access their data, costs in OCEAN, privacy level settings, etc.
 
 - DATA CONSUMERS (these could be the same vendors, but also even 3rd parties)
 
-* Register with EW-AI Marketplace
-* Search/Find IOT PTD data sets (this can also be done via filtering, grouping, aggregation, normalization, etc. search by manufacturer, device, type, network, data captured, etc.)
-* Have EW-AI prepare those sets for OCEAN analysis (EW-AI handles all the details here)
-* Apply desired analysis and learning algos
-* Get results -> make their devices and networks more efficient.
+a) Register with EW-AI Marketplace
+b) Search/Find IOT PTD data sets (this can also be done via filtering, grouping, aggregation, normalization, etc. search by manufacturer, device, type, network, data captured, etc.)
+c) Have EW-AI prepare those sets for OCEAN analysis (EW-AI handles all the details here)
+d) Apply desired analysis and learning algos
+e) Get results -> make their devices and networks more efficient.
 
 The flow above is simplified, eventually it would need to handle CVM marketplaces where vendors could permission other (selected) vendors/partners to learn from their data in aggregate ACROSS multiple vendor devices, find patterns across networks, etc...
 
