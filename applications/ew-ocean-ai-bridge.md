@@ -11,9 +11,9 @@ BUILD AN EW-TO-OCEAN BRIDGE ENABLING A POWER ANALYTICS AND INTELLIGENCE MARKETPL
 
 1. OVERVIEW
 
-Imagine being able to do analysis and learning across clean energy and renewables devices, networks and industries, for example, by analyzing and learning from energy consumption and usage patterns across wind, solar, EV, hydro and geothermal networks by being able to apply AI learning to consumption patterns to improve overall grid and IOT device efficiencies.  The application of AI techniques can potentially expose heretofore unknown energy consumption patterns across clean energy and renewables networks resulting in efficiency recommendations and improvements.
+Imagine being able to do analysis and learning across clean energy and renewables devices, networks and industries, for example, by analyzing and learning from energy consumption and usage patterns across wind, solar, EV, hydro and geothermal networks by being able to apply AI learning to energy consumption patterns to improve overall grid and IOT device efficiencies.  The application of AI techniques can potentially expose heretofore unknown energy consumption patterns across clean energy and renewables networks resulting in efficiency recommendations and improvements.
 
-This challenge project would create a conceptual prototype for an EW to OCEAN API Bridge and subsystem (EW-AI) which enables the creation of OCEAN IOT Energy Data Marketplace(s) fed by millions/billions of EW-DOS enabled devices. The EW-DOS devices send Power Telemetry Data (PDT) about usage and consumption to the marketplace(s). OCEAN's data marketplaces would be an ideal way to apply AI learning to improve the energy efficiency of IOT devices and networks by studying patterns visible from their real-world consumption data. Applying OCEAN AI analysis would also allow algos to be developed and applied to energy data which may look for and spot unusual and heretofore unknown consumption patterns, and even potentially start automatically addressing their causes through learning techniques.
+This challenge project would create a conceptual prototype for an EW to OCEAN API Bridge and subsystem (EW-AI) which enables the creation of OCEAN IOT Energy Data Marketplace(s) fed by millions/billions of EW-DOS enabled devices. The EW-DOS devices send Power Telemetry Data (PDT) about usage and consumption to the marketplace(s). OCEAN's data marketplaces would be an ideal way to apply AI learning to improve the energy efficiency of IOT devices and networks by studying patterns visible from their real-world consumption data. Applying OCEAN AI analysis would also allow algos to be developed and applied to energy data which may look for and identify unusual and heretofore unknown consumption patterns, and even potentially start automatically addressing their causes through learning techniques.
 
 Project idea genesis came from seeing the EW and Vodafone partnership, which led me to think more about energy IOT. I then thought there needs to be a way for all EW-DOS enabled IOT devices to feed "power and energy consumption data" into OCEAN for AI analysis, learning and refinement (feedback loop). This would thereby enable marketplaces, public and private, in OCEAN for IOT energy data. Furthermore, after watching Chernobyl recently (really well done!), anything I can do to help clean energy projects and renewables get smarter and more efficient is something I would find good and worth doing. This explains the interest in connecting EWT and OCEAN. 
 
@@ -119,7 +119,7 @@ c) Have EW-AI prepare those sets for OCEAN analysis (EW-AI handles all the detai
 d) Apply desired analysis and learning algos
 e) Get results -> make their devices and networks more efficient.
 
-The flow above is simplified, eventually it would need to handle CVM marketplaces where vendors could permission other (selected) vendors/partners to learn from their data in aggregate ACROSS multiple vendor devices, find patterns across networks, etc...
+The flow above is simplified, eventually it would need to handle CVM marketplaces where vendors could permission other (selected) vendors/partners to learn from their data in aggregate across multi-vendor networks and devices, find patterns across networks, etc...
 
 2. FUTURE MONETIZATION:
 
@@ -141,7 +141,7 @@ d) Offer EW-AI integration and consulting services to IOT vendors
 
 3.3 EW-AI Data Marketplace - This module contains two components and is much more than just a UI component, as it must store, setup, manage, stage and prepare EW-AI PTD data sets for consumption by OCEAN algos:
     
-a) User Interface - These would provide the web based (at this time) UI which setup the EW-AI Data Marketplace. Suggested: a) website (angular/react.js), or b) Electron app (angular/react.js). The UI would be a prototype showing how it could all be used together, managed and tied to OCEAN. The UI for this prototype would likely be based off and/or forked from the OCEAN Commons Marketplace project. The UI module is the most open-ended in terms of definition at this time and is expected to evolve as things progress. Mobile clients could be added at a later time of course as needed, but are beyond the scope of this challenge project.
+a) User Interface - These would provide the web based (at this time) UI which setup the EW-AI Data Marketplace. Suggested: a) website (angular/react.js), or b) Electron app (angular/react.js). The UI would be a prototype showing how it could all be used together, managed and tied to OCEAN. The UI for this prototype would likely be based off and/or forked from the OCEAN Commons Marketplace project. The UI module is the most open-ended in terms of definition at this time and is expected to evolve as things progress. Mobile clients could be added at a later time of course as needed but they are beyond the scope of this challenge project.
         
 b) Data Manager - This module contains the necessary components, interfaces, and logic to prepare (assemble, aggregate), stage, store and serve PTD data sets for analysis and consumption by the OCEAN protocol system, and is responsible for helping EW-AI users find, group, normalize, aggregate, associate sets of raw PTD data records together (sum, average, filter, group, etc.), tie it in with external IOT-X data (extended IOT device meta data), stage the data sets for OCEAN analysis and allow application of OCEAN AI routines, compute-to-data as necessary, etc. It is expected that fully 50% (or more) of the work for this entire project will be involved in this subsystem.
 
@@ -199,7 +199,7 @@ Longer term: I have 30-years of experience in development, databases, E-commerce
 
 - Are there any specific open source platforms, projects or repositories I cannot utilize in making this?
 
-- Is EW-AI "part of" EW-DOS or is it separate (it might belong in the EW-DOS Utilities or Toolkit area)?
+- Is EW-AI part of EW-DOS or is it separate (it might belong in the EW-DOS Utilities or Toolkit area)?
 
 - The whole project could also be done on the dotnet core/MVC tech stack also (and it could be ported to that platform later also if desired).
 
@@ -207,7 +207,7 @@ Longer term: I have 30-years of experience in development, databases, E-commerce
 
 a) Finalization of how vendors/manufacturers are on-boarded/registered into EW-AI,
 b) How devices are fully authenticated/secured (I will integrate with ENS and DID identifiers though obviously) and I realize full authentication will ultimately be required,
-c) CVM implementation (there are many privacy and access considerations in a multi-tenated system). I'm setting the project up for SVM, but will develop with the ultimate CVM goal in mind however, and try to incorporate anything practical to facilitate later expansion for supporting CVM,
+c) CVM implementation (there are many privacy and access considerations in a multi-tenat system). I'm setting the project up for SVM but will develop with the ultimate CVM goal in mind and try to incorporate anything practical to facilitate later expansion for supporting CVM,
 d) Performance tuning and optimizations,
 e) IT/Production/Operational deployments, etc.
 
