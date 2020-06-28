@@ -2,7 +2,7 @@
 # Energy Web Innovation Challenge Proposal
 * **Project Name**: SolarDAO
 * **Project Proposer GitHub**: https://github.com/adradr
-* **Energy Web Chain Payment Address**: 
+* **Energy Web Chain Payment Address**: 0xb600409101aB33d1a7DF8aF526a2eFBC72e475BB
 
 ## Project Description
 
