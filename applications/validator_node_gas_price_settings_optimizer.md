@@ -43,7 +43,7 @@ VNGPO would be an optional, easily installable system component, whose purpose i
 
 The proposed sub-system can, and should, be implemented in a manner that makes it transparent to operate and easy to adapt, with algorithm choices being configurable. This proposal will outline a simple yet complete algorithm that can be used directly in the prototype, but once telemetry data is available we encourage the research and development of more advanced, and possibly more optimal, alternatives.
 
-<img src="https://drive.google.com/uc?export=view&id=1NEgIAOkuO4zYXCDb3O0dvbwYj7Nf0oTe" width=600 />
+![image](https://drive.google.com/uc?export=view&id=1NEgIAOkuO4zYXCDb3O0dvbwYj7Nf0oTe)
 
 **Figure 1.** System-components
 
